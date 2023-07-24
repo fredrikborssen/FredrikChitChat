@@ -10,6 +10,6 @@ namespace ChittyChatty.Data
             : base(options)
         {
         }
-        DbSet<Apartment> Apartments { get; set; }
+        public DbSet<Apartment> Apartments { get; set; }
     }
 }
