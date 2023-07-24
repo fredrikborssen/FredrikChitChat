@@ -35,17 +35,33 @@ namespace ChittyChatty.Controllers
 
             if (!searchResult.Any())
                 return NotFound();
+
+            return Ok(searchResult);
+        }
+
+        [HttpGet("{id}")]
+        [ProducesResponseType(typeof(ApartmentRm),StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> GetApartmentById(Guid id)
+        {
+            var searchResult = await _dbContext.Apartments
+                .Where(apartment => apartment.Id == id)
+                .FirstOrDefaultAsync();
+
+            if(searchResult == null) 
+                return NotFound();
+
             return Ok(searchResult);
         }
 
         [HttpPost]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status201Created)]
         public async Task<IActionResult> PostNewApartment(ApartmentDto apartment)
         {
             var newApartment = new Apartment(apartment.Location,apartment.Rooms,apartment.Size,apartment.Published,apartment.Publisher);
             await _dbContext.Apartments.AddAsync(newApartment);
             _dbContext.SaveChanges();
-            return Ok();
+            return CreatedAtAction(nameof(GetApartmentById), new { id = newApartment.Id }, newApartment);
         }
     }
 }
