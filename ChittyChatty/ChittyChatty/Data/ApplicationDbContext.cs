@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using ChittyChatty.Domain.Entites;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace ChittyChatty.Data
@@ -9,5 +10,6 @@ namespace ChittyChatty.Data
             : base(options)
         {
         }
+        DbSet<Apartment> Apartments { get; set; }
     }
 }
