@@ -4,6 +4,7 @@ using ChittyChatty.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ChittyChatty.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230725125249_AddBrokerAndBrokerListingTable")]
+    partial class AddBrokerAndBrokerListingTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -89,9 +92,6 @@ namespace ChittyChatty.Data.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("BrokerId", "BuildId");
-
-                    b.HasIndex("BuildId")
-                        .IsUnique();
 
                     b.ToTable("brokerListings");
                 });
@@ -341,23 +341,7 @@ namespace ChittyChatty.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ChittyChatty.Domain.Entites.Apartment", "Apartment")
-                        .WithOne()
-                        .HasForeignKey("ChittyChatty.Domain.Entites.BrokerListing", "BuildId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("ChittyChatty.Domain.Entites.House", "House")
-                        .WithOne()
-                        .HasForeignKey("ChittyChatty.Domain.Entites.BrokerListing", "BuildId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Apartment");
-
                     b.Navigation("Broker");
-
-                    b.Navigation("House");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

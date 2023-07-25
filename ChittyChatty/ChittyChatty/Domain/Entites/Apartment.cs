@@ -1,12 +1,15 @@
-﻿using System.Drawing;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Drawing;
 using System.Text.Json.Serialization;
 
 namespace ChittyChatty.Domain.Entites
 {
     public class Apartment
     {
+        [Key]
         [JsonPropertyName("id")]
-        public Guid Id { get; set; }
+        public Guid BuildingId { get; set; }
+        public int BrokerId { get; set; }
         [JsonPropertyName("Location")]
         public string? Location { get; set; }
         [JsonPropertyName("Rooms")]
@@ -14,19 +17,20 @@ namespace ChittyChatty.Domain.Entites
         [JsonPropertyName("Size")]
         public int Size { get; set; }
         [JsonPropertyName("Published")]
-        public DateTime Published { get; set; }
+        public DateTime? Published { get; set; }
         [JsonPropertyName("Publisher")]
-        public string? Publisher { get; set; }
+        public string? BrokerCompany { get; set; }
 
 
-        public Apartment(string location, int rooms, int size, DateTime published, string publisher)
+        public Apartment(int brokerId,string location, int rooms, int size, DateTime? published, string brokerCompany)
         {
-            Id = Guid.NewGuid();
+            BuildingId = Guid.NewGuid();
+            BrokerId = brokerId;
             Location = location;
             Rooms = rooms;
             Size = size;
             Published = published;
-            Publisher = publisher;
+            BrokerCompany = brokerCompany;
         }
     }
 }
