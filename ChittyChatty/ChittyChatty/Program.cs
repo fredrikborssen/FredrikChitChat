@@ -1,4 +1,5 @@
 using ChittyChatty.Data;
+using ChittyChatty.MockData;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -18,8 +19,24 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<ApplicationDbContext>();
 
 var app = builder.Build();
+
+var entites = app.Services.CreateScope().ServiceProvider.GetRequiredService<ApplicationDbContext>();
+
+entites.Database.EnsureCreatedAsync().Wait();
+
+// Seed the database with test data if needed
+MockData.Initialize(entites);
+if (!entites.Apartments.Any())
+{
+    await MockData.MockDatabaseDataApartments();
+}
+else if(!entites.Houses.Any())
+{
+    await MockData.MockDatabaseDataHouses();
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

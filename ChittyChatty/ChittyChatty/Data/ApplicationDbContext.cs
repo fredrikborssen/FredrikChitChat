@@ -11,5 +11,6 @@ namespace ChittyChatty.Data
         {
         }
         public DbSet<Apartment> Apartments { get; set; }
+        public DbSet<House> Houses { get; set; }
     }
 }

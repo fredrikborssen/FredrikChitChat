@@ -1,9 +1,8 @@
-﻿using System.Drawing;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 
-namespace ChittyChatty.Domain.Entites
+namespace ChittyChatty.MockData
 {
-    public class Apartment
+    public class ApartmentData
     {
         [JsonPropertyName("id")]
         public Guid Id { get; set; }
@@ -17,16 +16,5 @@ namespace ChittyChatty.Domain.Entites
         public DateTime Published { get; set; }
         [JsonPropertyName("Publisher")]
         public string? Publisher { get; set; }
-
-
-        public Apartment(string location, int rooms, int size, DateTime published, string publisher)
-        {
-            Id = Guid.NewGuid();
-            Location = location;
-            Rooms = rooms;
-            Size = size;
-            Published = published;
-            Publisher = publisher;
-        }
     }
 }

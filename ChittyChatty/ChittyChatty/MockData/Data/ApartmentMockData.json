@@ -1,0 +1,4002 @@
+[
+  {
+    "Id": "a86f73a4-f316-4b24-81c7-cdb9dde31ed4",
+    "Location": "58855 Fremont Terrace",
+    "Rooms": 3,
+    "Size": 11,
+    "Published": "2022-12-19",
+    "Publisher": "Darryl Ferneley"
+  },
+  {
+    "Id": "ee1995b3-b477-4d06-af14-503be3c8f417",
+    "Location": "2910 Pleasure Circle",
+    "Rooms": 4,
+    "Size": 113,
+    "Published": "2022-11-03",
+    "Publisher": "Minerva Izakov"
+  },
+  {
+    "Id": "7ec25d1f-e864-4f8b-869e-698118558b3e",
+    "Location": "4 Messerschmidt Crossing",
+    "Rooms": 2,
+    "Size": 129,
+    "Published": "2023-02-10",
+    "Publisher": "Kristy Gellier"
+  },
+  {
+    "Id": "c4dbf667-443f-4191-890c-429ba664e5a1",
+    "Location": "9 Roth Street",
+    "Rooms": 5,
+    "Size": 93,
+    "Published": "2022-09-06",
+    "Publisher": "Melina Karolewski"
+  },
+  {
+    "Id": "a3480a59-577c-425b-ab92-31bef4143473",
+    "Location": "4653 Spenser Terrace",
+    "Rooms": 6,
+    "Size": 11,
+    "Published": "2022-12-06",
+    "Publisher": "Dorita Shoubridge"
+  },
+  {
+    "Id": "951a72ac-9a64-48de-8af6-cb8d3a9b53c3",
+    "Location": "86 Vera Drive",
+    "Rooms": 6,
+    "Size": 113,
+    "Published": "2022-08-11",
+    "Publisher": "Dacia Gebbe"
+  },
+  {
+    "Id": "e5fed88c-081d-4ea1-88f5-f8c73d036cc0",
+    "Location": "76 Morningstar Place",
+    "Rooms": 4,
+    "Size": 97,
+    "Published": "2022-11-24",
+    "Publisher": "Delilah Pinock"
+  },
+  {
+    "Id": "dde6f23d-06a4-4de7-bda5-5d24e85dc80a",
+    "Location": "6610 Park Meadow Point",
+    "Rooms": 4,
+    "Size": 125,
+    "Published": "2023-02-14",
+    "Publisher": "Kattie Uzielli"
+  },
+  {
+    "Id": "5b2547de-f29e-412c-bca4-a219a6ed12b0",
+    "Location": "370 Helena Road",
+    "Rooms": 6,
+    "Size": 125,
+    "Published": "2023-07-07",
+    "Publisher": "Meredeth Guiot"
+  },
+  {
+    "Id": "8f14cd11-2880-4704-915b-0c167e9881b7",
+    "Location": "66 Sycamore Alley",
+    "Rooms": 1,
+    "Size": 149,
+    "Published": "2023-02-26",
+    "Publisher": "Kimball Cocke"
+  },
+  {
+    "Id": "a83a6dac-70ed-4447-84aa-ad49422272f2",
+    "Location": "6002 Morrow Pass",
+    "Rooms": 1,
+    "Size": 46,
+    "Published": "2022-10-07",
+    "Publisher": "Mella Wedgwood"
+  },
+  {
+    "Id": "a6b06670-3e06-479f-9fa3-05d723c2d78e",
+    "Location": "23 Norway Maple Center",
+    "Rooms": 5,
+    "Size": 84,
+    "Published": "2023-07-12",
+    "Publisher": "Natty Cubbinelli"
+  },
+  {
+    "Id": "e0701c4f-1c88-4572-9bee-828e07cb4e3a",
+    "Location": "37 Marquette Junction",
+    "Rooms": 3,
+    "Size": 21,
+    "Published": "2022-07-25",
+    "Publisher": "Dagny Ast"
+  },
+  {
+    "Id": "e963404c-f458-4ac6-b107-458705c88224",
+    "Location": "10918 Bellgrove Way",
+    "Rooms": 4,
+    "Size": 38,
+    "Published": "2023-06-11",
+    "Publisher": "Zack Heisler"
+  },
+  {
+    "Id": "be81a02d-7861-4e41-94fb-d60dfe2da7c5",
+    "Location": "43663 Stang Plaza",
+    "Rooms": 3,
+    "Size": 128,
+    "Published": "2022-09-05",
+    "Publisher": "Carina Hartop"
+  },
+  {
+    "Id": "5d9da068-e232-491b-9c50-096754146c92",
+    "Location": "26 Tennessee Terrace",
+    "Rooms": 4,
+    "Size": 7,
+    "Published": "2023-02-02",
+    "Publisher": "Kirstin Zapater"
+  },
+  {
+    "Id": "56acd141-6180-41da-be31-384ccc49e31f",
+    "Location": "885 Macpherson Junction",
+    "Rooms": 5,
+    "Size": 95,
+    "Published": "2023-04-09",
+    "Publisher": "Dasya Tythe"
+  },
+  {
+    "Id": "d66b95da-218d-405a-a1ab-9a218fcc0f57",
+    "Location": "54 Becker Way",
+    "Rooms": 3,
+    "Size": 27,
+    "Published": "2023-07-19",
+    "Publisher": "Hayes Merrgen"
+  },
+  {
+    "Id": "d9358409-53e1-4c3d-a60e-6f976a07221f",
+    "Location": "1957 Florence Plaza",
+    "Rooms": 6,
+    "Size": 20,
+    "Published": "2022-10-05",
+    "Publisher": "Ripley Du Plantier"
+  },
+  {
+    "Id": "57d0603c-9135-4ec8-bd86-ec6fa7a77c33",
+    "Location": "945 Meadow Ridge Way",
+    "Rooms": 6,
+    "Size": 148,
+    "Published": "2023-02-19",
+    "Publisher": "Trudi Thrush"
+  },
+  {
+    "Id": "c85b52d4-a6ca-4806-a6c3-f2de6b4014ba",
+    "Location": "6034 Shelley Court",
+    "Rooms": 6,
+    "Size": 148,
+    "Published": "2023-05-21",
+    "Publisher": "Eduard Standrin"
+  },
+  {
+    "Id": "fbfa2d30-b69b-421e-8ab4-fc72b6015ffa",
+    "Location": "85593 Rigney Drive",
+    "Rooms": 2,
+    "Size": 92,
+    "Published": "2022-10-23",
+    "Publisher": "Sabina Hulbert"
+  },
+  {
+    "Id": "9a884241-4d4d-4f59-a401-2776369e0ee7",
+    "Location": "84 Stephen Park",
+    "Rooms": 2,
+    "Size": 43,
+    "Published": "2023-02-23",
+    "Publisher": "Vi Beisley"
+  },
+  {
+    "Id": "d7380ab1-7bfe-4d70-87e1-f4387a2dbdb3",
+    "Location": "1 Aberg Avenue",
+    "Rooms": 1,
+    "Size": 55,
+    "Published": "2022-07-31",
+    "Publisher": "Kiersten Lympany"
+  },
+  {
+    "Id": "4d207e54-c02a-44ea-891d-8ae3927f791d",
+    "Location": "96 Gateway Pass",
+    "Rooms": 2,
+    "Size": 42,
+    "Published": "2023-07-20",
+    "Publisher": "Eleanore Hardaker"
+  },
+  {
+    "Id": "419d38cc-62fb-4651-bde8-f70aaa54c2bc",
+    "Location": "9 8th Avenue",
+    "Rooms": 2,
+    "Size": 57,
+    "Published": "2023-01-13",
+    "Publisher": "Fidelia Whieldon"
+  },
+  {
+    "Id": "c4bee019-1b86-4797-a3a4-895a8763d4bf",
+    "Location": "75803 Oxford Center",
+    "Rooms": 5,
+    "Size": 47,
+    "Published": "2022-08-18",
+    "Publisher": "Sarena Messiter"
+  },
+  {
+    "Id": "d7544623-2123-43e7-af52-5d31a07b26fb",
+    "Location": "24 Novick Junction",
+    "Rooms": 3,
+    "Size": 76,
+    "Published": "2022-12-09",
+    "Publisher": "Gerti Sirmon"
+  },
+  {
+    "Id": "229d14ac-06ae-4da9-9692-d2654303276c",
+    "Location": "48 Eastwood Plaza",
+    "Rooms": 1,
+    "Size": 45,
+    "Published": "2022-10-28",
+    "Publisher": "Dahlia Deyenhardt"
+  },
+  {
+    "Id": "845024c3-dc6f-408b-a0be-158c69cb49bc",
+    "Location": "64 Gerald Parkway",
+    "Rooms": 6,
+    "Size": 41,
+    "Published": "2022-09-11",
+    "Publisher": "Reg Delicate"
+  },
+  {
+    "Id": "09d48434-90c9-4072-9226-78fe968b2138",
+    "Location": "10981 Duke Circle",
+    "Rooms": 2,
+    "Size": 1,
+    "Published": "2023-03-31",
+    "Publisher": "Tessy Arendsen"
+  },
+  {
+    "Id": "21c998e4-a63a-402c-b907-c025083d6ddf",
+    "Location": "50052 Charing Cross Drive",
+    "Rooms": 3,
+    "Size": 28,
+    "Published": "2023-07-14",
+    "Publisher": "Jonathon Hiom"
+  },
+  {
+    "Id": "ec5f9926-968e-438d-be41-6f3f21ae6e28",
+    "Location": "2 Eggendart Point",
+    "Rooms": 3,
+    "Size": 122,
+    "Published": "2023-01-20",
+    "Publisher": "Erich Ilyinykh"
+  },
+  {
+    "Id": "746281f2-2e1b-4ad1-9ada-d67480dfd672",
+    "Location": "6257 Northfield Hill",
+    "Rooms": 2,
+    "Size": 13,
+    "Published": "2023-03-22",
+    "Publisher": "Kata Stud"
+  },
+  {
+    "Id": "471f439f-bcec-454e-9d79-21e39f119a9b",
+    "Location": "06 Jenna Crossing",
+    "Rooms": 5,
+    "Size": 75,
+    "Published": "2022-08-10",
+    "Publisher": "Klarika Keddle"
+  },
+  {
+    "Id": "241400aa-0552-4428-afc1-0c2a8d965a40",
+    "Location": "397 Nobel Court",
+    "Rooms": 4,
+    "Size": 32,
+    "Published": "2023-02-16",
+    "Publisher": "Evonne Sarfati"
+  },
+  {
+    "Id": "7563df7a-85ee-46d5-89f3-20d0082248db",
+    "Location": "29484 Fordem Trail",
+    "Rooms": 5,
+    "Size": 129,
+    "Published": "2023-04-27",
+    "Publisher": "Morena Lorman"
+  },
+  {
+    "Id": "15a58794-2f3e-48eb-9ae9-545611ccd19c",
+    "Location": "74432 Stang Pass",
+    "Rooms": 1,
+    "Size": 78,
+    "Published": "2022-09-06",
+    "Publisher": "Kalindi Bocken"
+  },
+  {
+    "Id": "9e14b1f0-05be-4e24-b02b-6dbf947d1709",
+    "Location": "166 Eagan Pass",
+    "Rooms": 3,
+    "Size": 26,
+    "Published": "2023-01-21",
+    "Publisher": "Jordon Tooke"
+  },
+  {
+    "Id": "9940a5db-f310-4a86-8790-2b11f1ba0415",
+    "Location": "36 Harbort Road",
+    "Rooms": 6,
+    "Size": 57,
+    "Published": "2022-09-26",
+    "Publisher": "D'arcy Pirdue"
+  },
+  {
+    "Id": "54257cf8-6103-42ff-a31a-d010349a9b7c",
+    "Location": "7 Dovetail Park",
+    "Rooms": 4,
+    "Size": 21,
+    "Published": "2022-12-20",
+    "Publisher": "Enrique Knapton"
+  },
+  {
+    "Id": "5fd95970-362d-4253-b52c-f887d13bf995",
+    "Location": "99165 Bartelt Hill",
+    "Rooms": 5,
+    "Size": 21,
+    "Published": "2023-06-13",
+    "Publisher": "Dave O'Doogan"
+  },
+  {
+    "Id": "c0ac999d-a85a-43a5-920a-24afe6ca32b9",
+    "Location": "89669 Orin Crossing",
+    "Rooms": 3,
+    "Size": 150,
+    "Published": "2022-10-31",
+    "Publisher": "Marieann Maggiori"
+  },
+  {
+    "Id": "909c4df2-9370-4d97-86e6-1ac912c60e50",
+    "Location": "58 Onsgard Circle",
+    "Rooms": 6,
+    "Size": 82,
+    "Published": "2023-05-06",
+    "Publisher": "Barrie Langabeer"
+  },
+  {
+    "Id": "5da6f3b3-48a2-43b9-b7af-70d80fa0eea8",
+    "Location": "955 Namekagon Place",
+    "Rooms": 5,
+    "Size": 103,
+    "Published": "2023-03-30",
+    "Publisher": "Rodrique Dorricott"
+  },
+  {
+    "Id": "57e36fd2-ebee-4456-9f34-a72cbd628a45",
+    "Location": "11790 Shelley Pass",
+    "Rooms": 3,
+    "Size": 88,
+    "Published": "2022-10-03",
+    "Publisher": "Aida Shafe"
+  },
+  {
+    "Id": "90257981-807a-42d6-80d5-86944f1d1321",
+    "Location": "4 Hovde Park",
+    "Rooms": 6,
+    "Size": 31,
+    "Published": "2023-05-15",
+    "Publisher": "Ingamar Keddle"
+  },
+  {
+    "Id": "b42c67b0-eff5-4cc9-88cc-c789b71903f2",
+    "Location": "5 Stoughton Point",
+    "Rooms": 2,
+    "Size": 16,
+    "Published": "2022-09-01",
+    "Publisher": "Aarika Carwardine"
+  },
+  {
+    "Id": "94ddef85-4f73-4169-82bc-b562aa362a01",
+    "Location": "2078 Huxley Drive",
+    "Rooms": 3,
+    "Size": 122,
+    "Published": "2023-03-30",
+    "Publisher": "Fredi Stedman"
+  },
+  {
+    "Id": "1ae7a9ed-510a-4f83-bd1e-7e1e17c3e418",
+    "Location": "4 Quincy Trail",
+    "Rooms": 6,
+    "Size": 101,
+    "Published": "2023-03-21",
+    "Publisher": "Bartlett Jordison"
+  },
+  {
+    "Id": "aa78f514-ec96-485e-a4c4-5503d3b32377",
+    "Location": "9023 Stephen Circle",
+    "Rooms": 1,
+    "Size": 58,
+    "Published": "2023-06-10",
+    "Publisher": "Celestina Southall"
+  },
+  {
+    "Id": "5f6b6ce4-bbcb-4b4e-8be0-6f6e3b90a13e",
+    "Location": "04566 Namekagon Way",
+    "Rooms": 4,
+    "Size": 7,
+    "Published": "2022-10-16",
+    "Publisher": "Rice Tammadge"
+  },
+  {
+    "Id": "c33fd987-ea3c-4efa-886f-4b6112273582",
+    "Location": "3814 Cardinal Park",
+    "Rooms": 5,
+    "Size": 66,
+    "Published": "2023-03-21",
+    "Publisher": "Gib Antonsson"
+  },
+  {
+    "Id": "80c078f5-99ae-4273-970d-ddf3052ef1a0",
+    "Location": "74590 Gateway Place",
+    "Rooms": 4,
+    "Size": 70,
+    "Published": "2022-08-13",
+    "Publisher": "Jaclyn McNay"
+  },
+  {
+    "Id": "ba3335d7-6ba0-46b0-9514-296f2e967b48",
+    "Location": "586 Main Point",
+    "Rooms": 2,
+    "Size": 135,
+    "Published": "2023-02-20",
+    "Publisher": "Gaynor Emberton"
+  },
+  {
+    "Id": "3a2f5d3d-8bcf-4719-828e-0aecfcf80bf5",
+    "Location": "1208 Waxwing Pass",
+    "Rooms": 4,
+    "Size": 144,
+    "Published": "2022-08-21",
+    "Publisher": "Cash Hawkins"
+  },
+  {
+    "Id": "3314331b-05c8-41b9-a63d-614a7d43a3d7",
+    "Location": "09 Gina Circle",
+    "Rooms": 4,
+    "Size": 88,
+    "Published": "2022-12-24",
+    "Publisher": "Natty Grayham"
+  },
+  {
+    "Id": "5db5fcac-51ce-42b4-bde5-a9b3ca6c9444",
+    "Location": "1 Kingsford Trail",
+    "Rooms": 6,
+    "Size": 107,
+    "Published": "2023-07-08",
+    "Publisher": "Clay Ritelli"
+  },
+  {
+    "Id": "b7fb4ce4-5a17-45cd-82eb-0daad2a84469",
+    "Location": "55830 Knutson Parkway",
+    "Rooms": 1,
+    "Size": 46,
+    "Published": "2022-10-07",
+    "Publisher": "Jason Disley"
+  },
+  {
+    "Id": "e32d0128-dae5-4cef-9148-7c4e29133753",
+    "Location": "0 Brown Avenue",
+    "Rooms": 6,
+    "Size": 93,
+    "Published": "2023-06-04",
+    "Publisher": "Frieda Buckles"
+  },
+  {
+    "Id": "b9c54ffd-866e-4630-a157-eb772a77385c",
+    "Location": "2 Anniversary Lane",
+    "Rooms": 5,
+    "Size": 41,
+    "Published": "2023-07-06",
+    "Publisher": "Shantee Attfield"
+  },
+  {
+    "Id": "5287f302-8d2a-40b7-a88d-218bb70d18a9",
+    "Location": "45364 Lighthouse Bay Terrace",
+    "Rooms": 3,
+    "Size": 34,
+    "Published": "2022-11-24",
+    "Publisher": "Shel Cases"
+  },
+  {
+    "Id": "1b9c44a6-02f9-462a-ac0b-f049fc98f5cd",
+    "Location": "7 Namekagon Crossing",
+    "Rooms": 5,
+    "Size": 112,
+    "Published": "2023-05-03",
+    "Publisher": "Marten O'Hogertie"
+  },
+  {
+    "Id": "2ece49c5-5a68-4c5d-9fc9-ad13dbc058c5",
+    "Location": "3743 Luster Terrace",
+    "Rooms": 6,
+    "Size": 104,
+    "Published": "2022-11-15",
+    "Publisher": "Fredrika Marin"
+  },
+  {
+    "Id": "03b50def-0e86-420e-9d27-eebd795c30fb",
+    "Location": "205 Sunfield Center",
+    "Rooms": 1,
+    "Size": 145,
+    "Published": "2022-09-25",
+    "Publisher": "Leonanie Deek"
+  },
+  {
+    "Id": "8b48f7f3-bc1a-45e2-9012-4b8dec0383f2",
+    "Location": "328 Randy Pass",
+    "Rooms": 5,
+    "Size": 30,
+    "Published": "2023-02-14",
+    "Publisher": "Sapphira De Pietri"
+  },
+  {
+    "Id": "2a9f2bac-c0e6-4a48-94ed-9731d712904f",
+    "Location": "957 Sutteridge Park",
+    "Rooms": 5,
+    "Size": 79,
+    "Published": "2023-01-21",
+    "Publisher": "Lydia Andrassy"
+  },
+  {
+    "Id": "2362ffad-b5f7-4c89-946e-55ee47c69d64",
+    "Location": "9 Independence Plaza",
+    "Rooms": 5,
+    "Size": 141,
+    "Published": "2023-07-06",
+    "Publisher": "Mandel Soigne"
+  },
+  {
+    "Id": "bd123a5c-5c24-4bb2-beb8-f05e502bb090",
+    "Location": "67493 Havey Junction",
+    "Rooms": 1,
+    "Size": 23,
+    "Published": "2022-08-17",
+    "Publisher": "Ellyn Adamov"
+  },
+  {
+    "Id": "e7dd84cf-6d5a-4671-b739-c746cb784f9c",
+    "Location": "6221 Harper Drive",
+    "Rooms": 5,
+    "Size": 40,
+    "Published": "2023-05-24",
+    "Publisher": "Nicoli Quarton"
+  },
+  {
+    "Id": "ea331c4f-90e4-45eb-a44d-81dc1aaf365d",
+    "Location": "07 Farragut Road",
+    "Rooms": 4,
+    "Size": 103,
+    "Published": "2023-06-12",
+    "Publisher": "Syd Segrave"
+  },
+  {
+    "Id": "927eba43-7234-445b-a57b-8695767dec99",
+    "Location": "116 Fairview Lane",
+    "Rooms": 5,
+    "Size": 82,
+    "Published": "2022-08-21",
+    "Publisher": "Yuri Spearman"
+  },
+  {
+    "Id": "05257752-a551-45e1-a9d6-ff4b6cb115a8",
+    "Location": "5754 Dexter Circle",
+    "Rooms": 2,
+    "Size": 140,
+    "Published": "2023-01-21",
+    "Publisher": "Ashlen Pirkis"
+  },
+  {
+    "Id": "390aa0f1-493d-485d-94ee-123233ca553c",
+    "Location": "3287 Lake View Plaza",
+    "Rooms": 3,
+    "Size": 145,
+    "Published": "2022-08-10",
+    "Publisher": "Harmony Thirkettle"
+  },
+  {
+    "Id": "eb12ad79-1864-4a09-9473-90d41cd8ccad",
+    "Location": "5 Butternut Circle",
+    "Rooms": 4,
+    "Size": 36,
+    "Published": "2022-09-10",
+    "Publisher": "Adey Sorey"
+  },
+  {
+    "Id": "5f51189f-bbb8-44cd-8082-929310026c7e",
+    "Location": "16705 Anniversary Center",
+    "Rooms": 3,
+    "Size": 47,
+    "Published": "2023-02-18",
+    "Publisher": "Rianon Stelljes"
+  },
+  {
+    "Id": "ec59bc83-025d-4853-a677-81feef24698b",
+    "Location": "113 Kinsman Park",
+    "Rooms": 4,
+    "Size": 97,
+    "Published": "2022-09-01",
+    "Publisher": "Lacee Colecrough"
+  },
+  {
+    "Id": "1b191a2a-e932-4191-b9d0-fdadd0273a40",
+    "Location": "56514 Buena Vista Avenue",
+    "Rooms": 4,
+    "Size": 46,
+    "Published": "2023-01-25",
+    "Publisher": "Florinda Jahan"
+  },
+  {
+    "Id": "c618b167-e8cf-4cde-b8e0-6a0ebaaf01fc",
+    "Location": "3358 Kenwood Alley",
+    "Rooms": 2,
+    "Size": 81,
+    "Published": "2023-07-24",
+    "Publisher": "Trenna Nobes"
+  },
+  {
+    "Id": "a9ccbc02-c550-4ec3-80b7-cbc127b2c6a7",
+    "Location": "1335 Steensland Plaza",
+    "Rooms": 3,
+    "Size": 125,
+    "Published": "2023-04-28",
+    "Publisher": "Mariya Eagan"
+  },
+  {
+    "Id": "7ae5d827-e90c-42e2-bbd7-1b3b36b03f14",
+    "Location": "48713 Leroy Drive",
+    "Rooms": 5,
+    "Size": 29,
+    "Published": "2023-02-06",
+    "Publisher": "Tiffie Stovine"
+  },
+  {
+    "Id": "55072379-0253-4a77-bc2f-169545a85222",
+    "Location": "2268 Corscot Circle",
+    "Rooms": 2,
+    "Size": 135,
+    "Published": "2022-11-22",
+    "Publisher": "Hubey McLugish"
+  },
+  {
+    "Id": "381dff5d-6c4f-42a1-977b-7a3c0461f730",
+    "Location": "219 Bartillon Circle",
+    "Rooms": 4,
+    "Size": 149,
+    "Published": "2022-10-24",
+    "Publisher": "Dante Aron"
+  },
+  {
+    "Id": "fadcb0e0-2825-4499-ac38-913428058519",
+    "Location": "2 Southridge Park",
+    "Rooms": 4,
+    "Size": 48,
+    "Published": "2023-02-18",
+    "Publisher": "Bendite Sterley"
+  },
+  {
+    "Id": "f245f783-c1f1-4513-8d6b-20afbaed9d25",
+    "Location": "271 Summit Drive",
+    "Rooms": 2,
+    "Size": 7,
+    "Published": "2023-01-03",
+    "Publisher": "Dillie Rime"
+  },
+  {
+    "Id": "2754ae6d-c67d-4fa6-8404-29ae194fc4d2",
+    "Location": "682 Glacier Hill Lane",
+    "Rooms": 4,
+    "Size": 45,
+    "Published": "2023-06-24",
+    "Publisher": "Holden Puffett"
+  },
+  {
+    "Id": "17808aff-59b6-4cc7-b6fc-93a279af1976",
+    "Location": "4392 Magdeline Pass",
+    "Rooms": 1,
+    "Size": 40,
+    "Published": "2023-04-20",
+    "Publisher": "Everard Flatte"
+  },
+  {
+    "Id": "43a5a40f-2ed7-486f-9552-756c329bffd8",
+    "Location": "25 Mcbride Park",
+    "Rooms": 2,
+    "Size": 122,
+    "Published": "2023-02-20",
+    "Publisher": "Ruthe Bagnell"
+  },
+  {
+    "Id": "d955ee81-7c0d-45b9-8b3b-86f7e3fc49a1",
+    "Location": "9 Bluejay Parkway",
+    "Rooms": 1,
+    "Size": 51,
+    "Published": "2023-07-03",
+    "Publisher": "Lalo Korf"
+  },
+  {
+    "Id": "edfddc51-dbcc-4d2c-a5ba-b83dc59a006c",
+    "Location": "88222 Ridgeview Point",
+    "Rooms": 6,
+    "Size": 143,
+    "Published": "2022-12-27",
+    "Publisher": "Devondra Mallindine"
+  },
+  {
+    "Id": "4953f435-6822-453c-bc3f-cf433f2ccfe0",
+    "Location": "7 Pierstorff Court",
+    "Rooms": 6,
+    "Size": 103,
+    "Published": "2022-11-16",
+    "Publisher": "Farica Bigglestone"
+  },
+  {
+    "Id": "90c81f29-70ab-44cd-a4d5-7ac60e8aa734",
+    "Location": "82 Hovde Way",
+    "Rooms": 4,
+    "Size": 29,
+    "Published": "2023-06-22",
+    "Publisher": "Ardyce Stileman"
+  },
+  {
+    "Id": "50cfb9b5-aa3b-4780-b93e-48ef01105b13",
+    "Location": "094 Sherman Trail",
+    "Rooms": 5,
+    "Size": 109,
+    "Published": "2023-06-07",
+    "Publisher": "Tibold Gardner"
+  },
+  {
+    "Id": "ae5dfc81-a148-4f85-ae9e-acb6f230e7fe",
+    "Location": "92 Waxwing Hill",
+    "Rooms": 6,
+    "Size": 140,
+    "Published": "2023-06-19",
+    "Publisher": "Onida Cheyenne"
+  },
+  {
+    "Id": "255c72e3-63b3-42a5-b4e8-f20b2f862f0e",
+    "Location": "8 Washington Drive",
+    "Rooms": 2,
+    "Size": 24,
+    "Published": "2022-08-06",
+    "Publisher": "Agace Inchcomb"
+  },
+  {
+    "Id": "0beb1b32-b1f5-4a06-b7ad-ed3e13031e7f",
+    "Location": "343 Ridgeview Street",
+    "Rooms": 5,
+    "Size": 14,
+    "Published": "2022-09-16",
+    "Publisher": "Valida Paolillo"
+  },
+  {
+    "Id": "ab06f28a-61f7-45de-a84c-466187c4a60e",
+    "Location": "2 Westend Terrace",
+    "Rooms": 2,
+    "Size": 75,
+    "Published": "2022-09-09",
+    "Publisher": "Emlynn Drayton"
+  },
+  {
+    "Id": "4cd308d0-cbaf-4742-8178-8d8367f904a8",
+    "Location": "8380 Jana Point",
+    "Rooms": 1,
+    "Size": 15,
+    "Published": "2022-12-24",
+    "Publisher": "Keary Hagart"
+  },
+  {
+    "Id": "04c8825a-7475-40ac-bbc0-962ceb8e860a",
+    "Location": "03 Green Ridge Street",
+    "Rooms": 6,
+    "Size": 98,
+    "Published": "2023-06-11",
+    "Publisher": "Shalna Speeks"
+  },
+  {
+    "Id": "5a952f55-aaf1-4a86-884d-b7bcda8f722a",
+    "Location": "76619 Valley Edge Place",
+    "Rooms": 4,
+    "Size": 28,
+    "Published": "2023-02-24",
+    "Publisher": "Elly Drewett"
+  },
+  {
+    "Id": "c72046ab-7014-470d-8a1c-4375b2fee831",
+    "Location": "4967 Mccormick Drive",
+    "Rooms": 2,
+    "Size": 141,
+    "Published": "2023-02-20",
+    "Publisher": "Francyne Timewell"
+  },
+  {
+    "Id": "f4660058-0c96-4adf-affb-f09587f1186e",
+    "Location": "8 Manley Way",
+    "Rooms": 4,
+    "Size": 113,
+    "Published": "2022-09-27",
+    "Publisher": "Trina Pawlicki"
+  },
+  {
+    "Id": "37766986-74a0-4643-98ea-42e9c194579e",
+    "Location": "36449 Maple Crossing",
+    "Rooms": 3,
+    "Size": 46,
+    "Published": "2022-11-10",
+    "Publisher": "Torrie Skotcher"
+  },
+  {
+    "Id": "52e21aeb-04af-4899-b74d-3bda02062d0d",
+    "Location": "042 Bowman Hill",
+    "Rooms": 4,
+    "Size": 4,
+    "Published": "2023-07-18",
+    "Publisher": "Wilhelmina Battershall"
+  },
+  {
+    "Id": "0ed749c1-52be-4de7-ae8f-6eb1cf551899",
+    "Location": "66 Green Ridge Trail",
+    "Rooms": 2,
+    "Size": 9,
+    "Published": "2023-05-16",
+    "Publisher": "Kelly Aronovitz"
+  },
+  {
+    "Id": "bec9857a-dec6-4118-852c-3edd3b806c95",
+    "Location": "505 Sachs Hill",
+    "Rooms": 1,
+    "Size": 128,
+    "Published": "2023-01-15",
+    "Publisher": "Thedrick Frantz"
+  },
+  {
+    "Id": "1c30f2fb-a78e-4042-9579-0b0e0849005f",
+    "Location": "491 Moland Center",
+    "Rooms": 2,
+    "Size": 122,
+    "Published": "2022-10-20",
+    "Publisher": "Cathi Kupker"
+  },
+  {
+    "Id": "af3735f6-2f8d-4275-8125-58910dcf17ef",
+    "Location": "44183 South Lane",
+    "Rooms": 4,
+    "Size": 60,
+    "Published": "2022-08-27",
+    "Publisher": "Laney Gussin"
+  },
+  {
+    "Id": "674bc5e0-36c8-45b4-af3c-5519839f6d89",
+    "Location": "12856 Grover Place",
+    "Rooms": 5,
+    "Size": 22,
+    "Published": "2023-04-07",
+    "Publisher": "Rasla Grafom"
+  },
+  {
+    "Id": "41203a83-e269-48ca-b23c-845a69b435f5",
+    "Location": "6892 Bartillon Road",
+    "Rooms": 5,
+    "Size": 93,
+    "Published": "2023-04-25",
+    "Publisher": "Effie Guilford"
+  },
+  {
+    "Id": "2ca1ebf2-290b-4b5b-a964-23646be28ab1",
+    "Location": "8104 Quincy Point",
+    "Rooms": 1,
+    "Size": 17,
+    "Published": "2023-05-17",
+    "Publisher": "Finlay Logie"
+  },
+  {
+    "Id": "ab763ca9-347f-4505-914e-3cb1b7a4f8f8",
+    "Location": "36 Golden Leaf Way",
+    "Rooms": 1,
+    "Size": 30,
+    "Published": "2022-11-06",
+    "Publisher": "Evonne Biaggetti"
+  },
+  {
+    "Id": "aa6d8ab5-e916-4f00-b3b1-fa4c72e559ba",
+    "Location": "0 Buell Pass",
+    "Rooms": 3,
+    "Size": 17,
+    "Published": "2023-01-11",
+    "Publisher": "Felicdad Metson"
+  },
+  {
+    "Id": "50153721-abd6-4d1e-9961-c9124509021d",
+    "Location": "1076 Arrowood Terrace",
+    "Rooms": 3,
+    "Size": 51,
+    "Published": "2022-11-30",
+    "Publisher": "Ivy Clymer"
+  },
+  {
+    "Id": "eca7e0d7-0848-48fc-8b14-53f2253b874b",
+    "Location": "2 Esch Lane",
+    "Rooms": 6,
+    "Size": 54,
+    "Published": "2023-07-06",
+    "Publisher": "Julianna McMurtyr"
+  },
+  {
+    "Id": "c1ac568d-b8b9-4201-9629-92e912817501",
+    "Location": "9 Spaight Point",
+    "Rooms": 6,
+    "Size": 92,
+    "Published": "2022-11-07",
+    "Publisher": "Nathalie Bugby"
+  },
+  {
+    "Id": "13258a5a-7089-4733-9fa2-c5399428e5b2",
+    "Location": "3398 Hayes Alley",
+    "Rooms": 1,
+    "Size": 69,
+    "Published": "2023-04-04",
+    "Publisher": "Padraig Thackwray"
+  },
+  {
+    "Id": "898306bc-2a05-453c-952e-ac29948001fa",
+    "Location": "4070 Sage Place",
+    "Rooms": 6,
+    "Size": 86,
+    "Published": "2022-08-30",
+    "Publisher": "Cati Dulton"
+  },
+  {
+    "Id": "dbc83e99-0f9d-43f3-8a0f-49ae50bfb466",
+    "Location": "46 Vernon Pass",
+    "Rooms": 3,
+    "Size": 75,
+    "Published": "2023-04-13",
+    "Publisher": "Clarinda Christer"
+  },
+  {
+    "Id": "7fcc9b0b-17b5-4bf9-a23a-00238b382fc7",
+    "Location": "9862 Jenna Park",
+    "Rooms": 1,
+    "Size": 31,
+    "Published": "2023-04-29",
+    "Publisher": "Zahara Tunnicliff"
+  },
+  {
+    "Id": "caa5ac92-57ab-41ab-a7c9-354ab86e031e",
+    "Location": "6201 Gulseth Alley",
+    "Rooms": 6,
+    "Size": 53,
+    "Published": "2022-08-24",
+    "Publisher": "Ines Eyree"
+  },
+  {
+    "Id": "023c7120-ba0f-4b38-b26c-d2b98f17bf27",
+    "Location": "591 Everett Center",
+    "Rooms": 3,
+    "Size": 55,
+    "Published": "2022-11-29",
+    "Publisher": "Aldridge Marston"
+  },
+  {
+    "Id": "6eed334b-ef73-4a72-8378-118dbef3b049",
+    "Location": "33731 Raven Avenue",
+    "Rooms": 5,
+    "Size": 109,
+    "Published": "2023-02-27",
+    "Publisher": "Lou Ros"
+  },
+  {
+    "Id": "32a8ecd1-f7c7-46fa-a6b2-149ed129e28a",
+    "Location": "5034 Macpherson Circle",
+    "Rooms": 5,
+    "Size": 141,
+    "Published": "2022-07-30",
+    "Publisher": "Daffi Manhood"
+  },
+  {
+    "Id": "3164f337-b3e7-40e8-a47c-a9e67efe64b4",
+    "Location": "7555 Fairfield Street",
+    "Rooms": 6,
+    "Size": 31,
+    "Published": "2023-03-20",
+    "Publisher": "Desirae Pilkington"
+  },
+  {
+    "Id": "95255780-ca9e-46f4-9a7b-575104bfd399",
+    "Location": "9953 Debra Parkway",
+    "Rooms": 4,
+    "Size": 42,
+    "Published": "2022-09-06",
+    "Publisher": "Claudius Salmoni"
+  },
+  {
+    "Id": "7978f8ec-41d8-48bd-bb58-5c6e1d519192",
+    "Location": "737 Waywood Plaza",
+    "Rooms": 3,
+    "Size": 3,
+    "Published": "2023-04-20",
+    "Publisher": "Barry Muldownie"
+  },
+  {
+    "Id": "262f961b-dfa9-4e89-876b-9d6c55db5c8b",
+    "Location": "9 Mariners Cove Road",
+    "Rooms": 3,
+    "Size": 43,
+    "Published": "2023-04-08",
+    "Publisher": "Dallas Craigs"
+  },
+  {
+    "Id": "0d0b6c5a-3779-44ef-b794-3599e0fba1bc",
+    "Location": "8660 Old Gate Alley",
+    "Rooms": 1,
+    "Size": 16,
+    "Published": "2022-08-08",
+    "Publisher": "Ruth Missenden"
+  },
+  {
+    "Id": "43f15ec6-b63c-4362-8de9-e38452fc0e64",
+    "Location": "3521 Weeping Birch Point",
+    "Rooms": 6,
+    "Size": 8,
+    "Published": "2022-12-02",
+    "Publisher": "Heidie Shaplin"
+  },
+  {
+    "Id": "d384b0f5-de27-4b9f-990c-3a9145d005c0",
+    "Location": "7545 Lunder Drive",
+    "Rooms": 1,
+    "Size": 120,
+    "Published": "2023-05-25",
+    "Publisher": "Devy Round"
+  },
+  {
+    "Id": "8936fbd0-79be-425e-a96f-b85611b366cc",
+    "Location": "059 Crest Line Way",
+    "Rooms": 5,
+    "Size": 44,
+    "Published": "2023-01-20",
+    "Publisher": "Marlo Heelis"
+  },
+  {
+    "Id": "ee581c88-f235-48ac-897d-83ad6276f434",
+    "Location": "06 Vera Circle",
+    "Rooms": 2,
+    "Size": 135,
+    "Published": "2023-07-24",
+    "Publisher": "Jerrilyn Tremmil"
+  },
+  {
+    "Id": "4866a651-017b-465f-abff-759b45799b88",
+    "Location": "6 Anthes Center",
+    "Rooms": 3,
+    "Size": 120,
+    "Published": "2023-02-24",
+    "Publisher": "Lucilia Sowthcote"
+  },
+  {
+    "Id": "c9a0f0d3-4507-490c-9153-05accad1fd97",
+    "Location": "82 Merchant Lane",
+    "Rooms": 6,
+    "Size": 45,
+    "Published": "2023-05-29",
+    "Publisher": "Elihu Linsey"
+  },
+  {
+    "Id": "12fa1d46-287c-43b5-ba58-61d907bbdeb6",
+    "Location": "7250 Longview Avenue",
+    "Rooms": 4,
+    "Size": 120,
+    "Published": "2023-04-11",
+    "Publisher": "Korey Westoff"
+  },
+  {
+    "Id": "e037f2a4-ef3c-4358-8de8-c417d72d2cf8",
+    "Location": "83 Knutson Center",
+    "Rooms": 2,
+    "Size": 91,
+    "Published": "2022-10-05",
+    "Publisher": "Kari Dauncey"
+  },
+  {
+    "Id": "7c686e94-f5fc-4d28-9960-ba647a2880ce",
+    "Location": "2 Oneill Center",
+    "Rooms": 6,
+    "Size": 36,
+    "Published": "2023-06-11",
+    "Publisher": "Hephzibah Hirschmann"
+  },
+  {
+    "Id": "e970ff8d-bb61-49ef-b1c5-b92566ec56ff",
+    "Location": "04781 Division Point",
+    "Rooms": 1,
+    "Size": 5,
+    "Published": "2023-06-15",
+    "Publisher": "Denni Dettmar"
+  },
+  {
+    "Id": "32b27b26-5958-4ecd-abab-7df437bb2e34",
+    "Location": "957 Sutherland Alley",
+    "Rooms": 1,
+    "Size": 43,
+    "Published": "2022-09-01",
+    "Publisher": "Eugine Acutt"
+  },
+  {
+    "Id": "09fe1bc2-187c-4a5b-97ae-d090b5c1bd6c",
+    "Location": "50 Iowa Court",
+    "Rooms": 6,
+    "Size": 111,
+    "Published": "2022-11-21",
+    "Publisher": "Else Ambresin"
+  },
+  {
+    "Id": "fa54ad6f-dbd2-47a6-9a49-063c2b12f2e3",
+    "Location": "935 Anderson Parkway",
+    "Rooms": 1,
+    "Size": 94,
+    "Published": "2023-04-29",
+    "Publisher": "Karrie Sarfas"
+  },
+  {
+    "Id": "bb55e336-05ee-4b3b-affe-b5784b969bb0",
+    "Location": "7155 Dawn Pass",
+    "Rooms": 4,
+    "Size": 119,
+    "Published": "2023-06-04",
+    "Publisher": "Demetris Housam"
+  },
+  {
+    "Id": "436e3ff9-d99e-45fe-be96-83ae33b0c3c7",
+    "Location": "97 Larry Crossing",
+    "Rooms": 3,
+    "Size": 86,
+    "Published": "2022-09-25",
+    "Publisher": "Antonella Mabon"
+  },
+  {
+    "Id": "6a24c722-2a32-4e0e-a2d6-cfd201fb8bea",
+    "Location": "5 Russell Street",
+    "Rooms": 5,
+    "Size": 13,
+    "Published": "2022-08-17",
+    "Publisher": "Myrwyn Kehir"
+  },
+  {
+    "Id": "3df0b07f-ea51-4ddb-aeb5-b7139675683f",
+    "Location": "06 Ridgeway Way",
+    "Rooms": 5,
+    "Size": 123,
+    "Published": "2022-11-15",
+    "Publisher": "Zedekiah Bernaldo"
+  },
+  {
+    "Id": "77fe0f6a-d1f9-40fd-831a-5aa50425d6b6",
+    "Location": "10013 Fisk Lane",
+    "Rooms": 6,
+    "Size": 30,
+    "Published": "2023-05-31",
+    "Publisher": "Isa Vasilmanov"
+  },
+  {
+    "Id": "66b4f527-9224-4756-b118-d7a2a439d475",
+    "Location": "7 Nevada Drive",
+    "Rooms": 2,
+    "Size": 139,
+    "Published": "2023-04-02",
+    "Publisher": "Basile Ketchell"
+  },
+  {
+    "Id": "a99a135d-49b0-4af9-9dee-9f19abdb5b55",
+    "Location": "85 Moland Trail",
+    "Rooms": 3,
+    "Size": 123,
+    "Published": "2022-08-25",
+    "Publisher": "Averell Gotch"
+  },
+  {
+    "Id": "6aa98b30-924b-4a32-87e5-a63e3955d07f",
+    "Location": "1 Linden Street",
+    "Rooms": 6,
+    "Size": 89,
+    "Published": "2023-04-27",
+    "Publisher": "Chery Grigoriev"
+  },
+  {
+    "Id": "3857e266-732c-457b-9e1b-a6dcb0e005af",
+    "Location": "53 Loeprich Court",
+    "Rooms": 5,
+    "Size": 128,
+    "Published": "2022-08-18",
+    "Publisher": "Allyson Bault"
+  },
+  {
+    "Id": "94c6ddf3-ef14-4d66-886d-d42ae34bed62",
+    "Location": "7650 Lakeland Way",
+    "Rooms": 4,
+    "Size": 50,
+    "Published": "2023-02-17",
+    "Publisher": "Lindon Ruit"
+  },
+  {
+    "Id": "9f38e52a-a59b-4b4e-945d-a3eed22caf8e",
+    "Location": "62781 Fordem Point",
+    "Rooms": 4,
+    "Size": 108,
+    "Published": "2023-01-22",
+    "Publisher": "Winny Tethcote"
+  },
+  {
+    "Id": "a845d9c7-7be0-40c0-a3d9-82e065c438a9",
+    "Location": "3063 Eliot Terrace",
+    "Rooms": 2,
+    "Size": 68,
+    "Published": "2023-01-06",
+    "Publisher": "Chryste Moysey"
+  },
+  {
+    "Id": "de25aec1-4d8c-4c93-981e-d5bc3dd49a17",
+    "Location": "15792 Troy Trail",
+    "Rooms": 3,
+    "Size": 127,
+    "Published": "2022-10-12",
+    "Publisher": "Wilbert Jurries"
+  },
+  {
+    "Id": "de6776dc-71c2-4c9c-afe2-90a1369fd949",
+    "Location": "458 Service Parkway",
+    "Rooms": 5,
+    "Size": 119,
+    "Published": "2023-01-17",
+    "Publisher": "Leanora Scutter"
+  },
+  {
+    "Id": "724cf4f8-e50b-45c3-97c0-c644090703dd",
+    "Location": "39 Caliangt Crossing",
+    "Rooms": 6,
+    "Size": 87,
+    "Published": "2022-10-01",
+    "Publisher": "Cyndi Stansbury"
+  },
+  {
+    "Id": "ddd527fe-d02e-483a-b4e1-0440d9c4bc96",
+    "Location": "0814 Buhler Park",
+    "Rooms": 3,
+    "Size": 6,
+    "Published": "2023-01-13",
+    "Publisher": "Ailene Brodley"
+  },
+  {
+    "Id": "41d33a52-dc74-41a6-bb20-8c0104a24f74",
+    "Location": "49 Vernon Lane",
+    "Rooms": 3,
+    "Size": 45,
+    "Published": "2022-11-17",
+    "Publisher": "Brear Foote"
+  },
+  {
+    "Id": "d34b029d-c642-4d35-9347-2b7b6d0b5926",
+    "Location": "40508 Leroy Alley",
+    "Rooms": 3,
+    "Size": 141,
+    "Published": "2023-03-29",
+    "Publisher": "Casi Greenshiels"
+  },
+  {
+    "Id": "ec793587-2f25-4e31-ade1-342c923a97b7",
+    "Location": "39 Westport Drive",
+    "Rooms": 6,
+    "Size": 127,
+    "Published": "2022-08-23",
+    "Publisher": "Nico Trevon"
+  },
+  {
+    "Id": "3d1ae88b-a2ce-4153-9cb6-53ad472f082a",
+    "Location": "58087 Ridge Oak Alley",
+    "Rooms": 2,
+    "Size": 120,
+    "Published": "2023-01-20",
+    "Publisher": "Wainwright Howsan"
+  },
+  {
+    "Id": "fafc55d3-fa3c-4df6-87fc-e4a8359344fb",
+    "Location": "6 Hermina Place",
+    "Rooms": 5,
+    "Size": 123,
+    "Published": "2023-01-17",
+    "Publisher": "Alexina Diche"
+  },
+  {
+    "Id": "98a4c3a5-0da9-4598-8975-d6da3b8173b6",
+    "Location": "15924 Stoughton Drive",
+    "Rooms": 5,
+    "Size": 137,
+    "Published": "2023-05-24",
+    "Publisher": "Donia Dunkley"
+  },
+  {
+    "Id": "d3f2f489-d8d9-490a-b398-f8e42cd26655",
+    "Location": "7 Carpenter Terrace",
+    "Rooms": 4,
+    "Size": 24,
+    "Published": "2023-04-05",
+    "Publisher": "Blane Kirkwood"
+  },
+  {
+    "Id": "8fff619a-3198-4c20-a060-7ddfbe4af000",
+    "Location": "02 Jenifer Road",
+    "Rooms": 4,
+    "Size": 112,
+    "Published": "2023-03-14",
+    "Publisher": "Flin Handrik"
+  },
+  {
+    "Id": "84a4f898-ba5e-4115-bd6e-476eb176bc0f",
+    "Location": "8 Crownhardt Place",
+    "Rooms": 2,
+    "Size": 135,
+    "Published": "2022-11-23",
+    "Publisher": "Willi Waudby"
+  },
+  {
+    "Id": "5b1b3dca-98a4-453e-ab4c-7d41781da0d5",
+    "Location": "75 Quincy Circle",
+    "Rooms": 2,
+    "Size": 71,
+    "Published": "2023-03-29",
+    "Publisher": "Zebadiah Garrigan"
+  },
+  {
+    "Id": "433a5487-d709-45bf-8858-878009431349",
+    "Location": "1 Lakewood Terrace",
+    "Rooms": 3,
+    "Size": 7,
+    "Published": "2022-10-20",
+    "Publisher": "Pier Musgrove"
+  },
+  {
+    "Id": "ee413dae-8a20-4b19-87b9-a7a69872bbb0",
+    "Location": "92566 Scoville Point",
+    "Rooms": 6,
+    "Size": 102,
+    "Published": "2023-04-26",
+    "Publisher": "Gannon Dummer"
+  },
+  {
+    "Id": "f8aff76c-b08a-449a-9d77-5395971d32c7",
+    "Location": "6868 Hooker Avenue",
+    "Rooms": 6,
+    "Size": 1,
+    "Published": "2023-05-29",
+    "Publisher": "Tobias Olech"
+  },
+  {
+    "Id": "18e7685f-3012-4636-9dc7-44345d6af9a0",
+    "Location": "87 Sullivan Park",
+    "Rooms": 2,
+    "Size": 47,
+    "Published": "2022-09-17",
+    "Publisher": "Zea McWhinnie"
+  },
+  {
+    "Id": "df8dcceb-cd7f-4202-b85a-e443eeb98ac5",
+    "Location": "4208 Knutson Point",
+    "Rooms": 6,
+    "Size": 130,
+    "Published": "2022-08-11",
+    "Publisher": "Minnie Teresia"
+  },
+  {
+    "Id": "70014638-6060-4922-bb22-4be220ad466e",
+    "Location": "2 Continental Street",
+    "Rooms": 1,
+    "Size": 57,
+    "Published": "2023-02-02",
+    "Publisher": "Martha Baudinot"
+  },
+  {
+    "Id": "ba14535a-d711-444f-9fea-df5d6944ad1a",
+    "Location": "7511 Longview Plaza",
+    "Rooms": 2,
+    "Size": 32,
+    "Published": "2023-06-02",
+    "Publisher": "Wilton Filppetti"
+  },
+  {
+    "Id": "851b4ce5-1d5f-47a7-bc4e-f0dd3b95fe8d",
+    "Location": "014 Continental Pass",
+    "Rooms": 4,
+    "Size": 130,
+    "Published": "2023-05-19",
+    "Publisher": "Nellie Chalder"
+  },
+  {
+    "Id": "abcc6149-89e9-4aab-94a7-d0e78b33472b",
+    "Location": "3801 Scoville Junction",
+    "Rooms": 2,
+    "Size": 83,
+    "Published": "2023-03-04",
+    "Publisher": "Cyb Linne"
+  },
+  {
+    "Id": "75dfb3cf-81b0-4b9b-b759-be74c7a3072a",
+    "Location": "38632 Green Ridge Drive",
+    "Rooms": 5,
+    "Size": 16,
+    "Published": "2022-12-29",
+    "Publisher": "Letta Leyson"
+  },
+  {
+    "Id": "ba6f1af1-0d31-4f16-af43-f80770c03ea8",
+    "Location": "1 Carberry Point",
+    "Rooms": 1,
+    "Size": 123,
+    "Published": "2023-07-20",
+    "Publisher": "Joshua Mulliss"
+  },
+  {
+    "Id": "4c956f25-4552-402f-aa2d-8096ffa49ee9",
+    "Location": "17378 Di Loreto Plaza",
+    "Rooms": 1,
+    "Size": 33,
+    "Published": "2022-10-11",
+    "Publisher": "Claudio Grabiec"
+  },
+  {
+    "Id": "468ecd87-869d-4f9d-b0f4-1149364a8113",
+    "Location": "318 Springview Parkway",
+    "Rooms": 2,
+    "Size": 54,
+    "Published": "2023-03-28",
+    "Publisher": "Sibilla Bazoche"
+  },
+  {
+    "Id": "d3090e02-6197-40ea-b7dd-afd2313f1d34",
+    "Location": "52137 Summer Ridge Trail",
+    "Rooms": 2,
+    "Size": 106,
+    "Published": "2023-07-24",
+    "Publisher": "Louise Blacket"
+  },
+  {
+    "Id": "123b271f-4e95-4cb9-87b3-27cd0e124055",
+    "Location": "787 Artisan Plaza",
+    "Rooms": 3,
+    "Size": 50,
+    "Published": "2022-11-14",
+    "Publisher": "Pen O'Shiels"
+  },
+  {
+    "Id": "1936f7e8-812f-4d03-9578-dbeeae8b93b2",
+    "Location": "35883 Orin Court",
+    "Rooms": 4,
+    "Size": 133,
+    "Published": "2022-12-01",
+    "Publisher": "Rodi Minter"
+  },
+  {
+    "Id": "e67ddf70-c9b2-4cac-8069-dedf2f665b17",
+    "Location": "47 Menomonie Junction",
+    "Rooms": 2,
+    "Size": 75,
+    "Published": "2023-01-06",
+    "Publisher": "Adolphus Fairbourne"
+  },
+  {
+    "Id": "3e6b2648-0776-494c-8ed4-4f78b034421a",
+    "Location": "97 Loftsgordon Way",
+    "Rooms": 2,
+    "Size": 9,
+    "Published": "2022-11-03",
+    "Publisher": "Faydra Phinnis"
+  },
+  {
+    "Id": "236e3acf-c464-496d-92fd-d47ea424515e",
+    "Location": "80 Kinsman Lane",
+    "Rooms": 4,
+    "Size": 122,
+    "Published": "2023-05-14",
+    "Publisher": "Bran Dovidaitis"
+  },
+  {
+    "Id": "5581cc5c-a953-41d1-bd4a-d89942b2a141",
+    "Location": "6309 Dakota Plaza",
+    "Rooms": 5,
+    "Size": 3,
+    "Published": "2022-12-21",
+    "Publisher": "Temple Clipsham"
+  },
+  {
+    "Id": "48c212f6-8aa6-4f82-951f-07386b1d9721",
+    "Location": "5 Cherokee Junction",
+    "Rooms": 5,
+    "Size": 43,
+    "Published": "2022-12-15",
+    "Publisher": "Blake Wreakes"
+  },
+  {
+    "Id": "ee8698fb-f322-458b-ae7e-401ed7038237",
+    "Location": "98 Golf Course Point",
+    "Rooms": 1,
+    "Size": 104,
+    "Published": "2023-07-12",
+    "Publisher": "Kevan Cressingham"
+  },
+  {
+    "Id": "c5bdea61-fabd-40c0-aa82-34e4c8610cc8",
+    "Location": "8 Forest Run Pass",
+    "Rooms": 5,
+    "Size": 54,
+    "Published": "2022-11-25",
+    "Publisher": "Kliment Akester"
+  },
+  {
+    "Id": "82f5afdb-eaac-4acd-8791-a51e128807b3",
+    "Location": "0152 Little Fleur Road",
+    "Rooms": 2,
+    "Size": 37,
+    "Published": "2023-06-11",
+    "Publisher": "Glen Tyt"
+  },
+  {
+    "Id": "7082e5c3-6d10-41db-88fb-dfe46a21ed1a",
+    "Location": "13 Kennedy Avenue",
+    "Rooms": 1,
+    "Size": 31,
+    "Published": "2023-04-26",
+    "Publisher": "Cyrille Valentinuzzi"
+  },
+  {
+    "Id": "764b51bf-2902-44d0-a5aa-776afe79522d",
+    "Location": "6557 Scofield Way",
+    "Rooms": 4,
+    "Size": 109,
+    "Published": "2022-08-25",
+    "Publisher": "Emmery Hardy-Piggin"
+  },
+  {
+    "Id": "1a413a79-a16c-49d1-a68c-706ce4c8742d",
+    "Location": "32375 Butterfield Place",
+    "Rooms": 4,
+    "Size": 103,
+    "Published": "2022-08-17",
+    "Publisher": "Ferdy Oller"
+  },
+  {
+    "Id": "4b11036b-1945-4811-9501-902712f6880e",
+    "Location": "6655 Eagan Plaza",
+    "Rooms": 4,
+    "Size": 9,
+    "Published": "2023-06-08",
+    "Publisher": "Roberta Jopke"
+  },
+  {
+    "Id": "8b156f37-a30d-4095-ad96-75ab305cb303",
+    "Location": "73193 Colorado Avenue",
+    "Rooms": 2,
+    "Size": 38,
+    "Published": "2023-01-08",
+    "Publisher": "Stillmann Hauxby"
+  },
+  {
+    "Id": "22aa8477-094a-4e38-80df-9c7195f1ad03",
+    "Location": "13920 Grover Street",
+    "Rooms": 4,
+    "Size": 98,
+    "Published": "2023-06-09",
+    "Publisher": "Lemmie Etherson"
+  },
+  {
+    "Id": "710d7531-d4b5-4cc6-93fa-d43afaf6b77f",
+    "Location": "5635 Derek Center",
+    "Rooms": 2,
+    "Size": 20,
+    "Published": "2022-08-04",
+    "Publisher": "Ardath MacTrustey"
+  },
+  {
+    "Id": "e5425c37-0c93-4415-9410-01f30772b5f8",
+    "Location": "98522 Westport Avenue",
+    "Rooms": 6,
+    "Size": 120,
+    "Published": "2023-06-02",
+    "Publisher": "Marlin Boorn"
+  },
+  {
+    "Id": "6767a52a-4e9f-4d8b-b829-a211c16c4648",
+    "Location": "354 Norway Maple Circle",
+    "Rooms": 5,
+    "Size": 42,
+    "Published": "2023-06-12",
+    "Publisher": "Vinnie St Quenin"
+  },
+  {
+    "Id": "1b1f12ef-b87e-45ce-a7c4-7e6ecb17b7e1",
+    "Location": "516 Pine View Drive",
+    "Rooms": 2,
+    "Size": 122,
+    "Published": "2022-08-19",
+    "Publisher": "Clemmie Aronovich"
+  },
+  {
+    "Id": "7f52152b-640a-47a4-b1cf-588704ca794e",
+    "Location": "23 Express Circle",
+    "Rooms": 1,
+    "Size": 76,
+    "Published": "2022-11-08",
+    "Publisher": "Elysia Townshend"
+  },
+  {
+    "Id": "5fc0da81-9cc2-4389-9c83-4eb5ec2c73bb",
+    "Location": "3 Everett Hill",
+    "Rooms": 1,
+    "Size": 85,
+    "Published": "2022-07-29",
+    "Publisher": "Andromache Turone"
+  },
+  {
+    "Id": "970719be-0775-482f-a7f8-206adb5517ca",
+    "Location": "019 Fair Oaks Center",
+    "Rooms": 3,
+    "Size": 127,
+    "Published": "2022-09-09",
+    "Publisher": "Leonelle Warrell"
+  },
+  {
+    "Id": "363c38a9-2b1d-47b5-8141-06d744e283c6",
+    "Location": "30877 Green Ridge Pass",
+    "Rooms": 1,
+    "Size": 143,
+    "Published": "2023-03-31",
+    "Publisher": "Lise Eastwell"
+  },
+  {
+    "Id": "8f24d8f2-dd92-40ad-9044-343189f40ed4",
+    "Location": "72718 Manufacturers Terrace",
+    "Rooms": 1,
+    "Size": 78,
+    "Published": "2023-06-02",
+    "Publisher": "Tobin Redholls"
+  },
+  {
+    "Id": "5145a53b-d197-44c4-84d2-f3bb4d3cd5dc",
+    "Location": "7154 Packers Trail",
+    "Rooms": 5,
+    "Size": 138,
+    "Published": "2023-01-02",
+    "Publisher": "Harlan Tovey"
+  },
+  {
+    "Id": "02223bfc-5e08-419c-ab2f-ba62366b7448",
+    "Location": "0 Corry Drive",
+    "Rooms": 4,
+    "Size": 102,
+    "Published": "2022-12-20",
+    "Publisher": "Kirbee McGraffin"
+  },
+  {
+    "Id": "696ee04a-dfb1-48e5-b250-ee73b92dfcd2",
+    "Location": "66475 Johnson Court",
+    "Rooms": 3,
+    "Size": 51,
+    "Published": "2023-02-04",
+    "Publisher": "Bellina Cellone"
+  },
+  {
+    "Id": "c2166af5-4e88-4f4a-8405-868761ac5930",
+    "Location": "70189 Fair Oaks Avenue",
+    "Rooms": 1,
+    "Size": 19,
+    "Published": "2023-01-29",
+    "Publisher": "Delmor Venditto"
+  },
+  {
+    "Id": "6122a919-8d2a-47ea-9c9c-830c65e08f59",
+    "Location": "43790 Eastlawn Park",
+    "Rooms": 6,
+    "Size": 9,
+    "Published": "2023-06-13",
+    "Publisher": "Corinna Sowte"
+  },
+  {
+    "Id": "d793a7b4-e670-483a-8d59-3217fc277624",
+    "Location": "16 Coleman Lane",
+    "Rooms": 3,
+    "Size": 5,
+    "Published": "2023-02-27",
+    "Publisher": "Adel Crowth"
+  },
+  {
+    "Id": "05b5c134-79f2-46a1-978b-758e068a9de7",
+    "Location": "15948 Green Road",
+    "Rooms": 3,
+    "Size": 1,
+    "Published": "2022-11-07",
+    "Publisher": "Logan Sleit"
+  },
+  {
+    "Id": "d874ecc9-9fda-4f2f-8841-90a03a434b87",
+    "Location": "1 Kings Street",
+    "Rooms": 1,
+    "Size": 39,
+    "Published": "2022-09-16",
+    "Publisher": "Lib Millwater"
+  },
+  {
+    "Id": "daf471a1-550d-4592-a10e-9dc45c309281",
+    "Location": "407 Logan Way",
+    "Rooms": 2,
+    "Size": 119,
+    "Published": "2022-11-23",
+    "Publisher": "Andrew McEwen"
+  },
+  {
+    "Id": "601831c8-6d2b-410d-a07c-1fddc57c3da0",
+    "Location": "17191 Arrowood Center",
+    "Rooms": 6,
+    "Size": 146,
+    "Published": "2022-11-26",
+    "Publisher": "Michel Olsson"
+  },
+  {
+    "Id": "1bf2850e-c293-4c3f-bdfd-92bc35387766",
+    "Location": "4160 Eastwood Terrace",
+    "Rooms": 5,
+    "Size": 105,
+    "Published": "2022-08-31",
+    "Publisher": "Say Brushfield"
+  },
+  {
+    "Id": "db420d2d-3d61-445b-89e4-f5dd70e1ea65",
+    "Location": "665 Sachtjen Point",
+    "Rooms": 2,
+    "Size": 112,
+    "Published": "2023-03-07",
+    "Publisher": "Tanitansy Filshin"
+  },
+  {
+    "Id": "54bd05c7-a864-4ae1-8933-04166d73ecd2",
+    "Location": "066 Canary Place",
+    "Rooms": 2,
+    "Size": 129,
+    "Published": "2022-08-19",
+    "Publisher": "Clim Maxwale"
+  },
+  {
+    "Id": "bdea4449-111f-42ec-aa09-b19984ac7cee",
+    "Location": "75650 Garrison Terrace",
+    "Rooms": 1,
+    "Size": 5,
+    "Published": "2023-04-23",
+    "Publisher": "Levin Jadczak"
+  },
+  {
+    "Id": "a0efe728-dcfb-46f2-a36c-b77638ab7792",
+    "Location": "12 Twin Pines Alley",
+    "Rooms": 2,
+    "Size": 100,
+    "Published": "2022-10-27",
+    "Publisher": "Lazaro Renney"
+  },
+  {
+    "Id": "ed5edf9f-4e31-420c-ac1b-a7c78d334020",
+    "Location": "65905 Kensington Terrace",
+    "Rooms": 3,
+    "Size": 49,
+    "Published": "2023-05-06",
+    "Publisher": "Aharon Broe"
+  },
+  {
+    "Id": "f6e8c200-0ea6-4345-bac6-e6ad885ef491",
+    "Location": "1338 Green Place",
+    "Rooms": 4,
+    "Size": 117,
+    "Published": "2023-05-23",
+    "Publisher": "Saw Proback"
+  },
+  {
+    "Id": "1ad8a3ce-696e-4aca-b442-ddca05142713",
+    "Location": "1 Jana Court",
+    "Rooms": 6,
+    "Size": 55,
+    "Published": "2023-01-14",
+    "Publisher": "Adler Raubenheim"
+  },
+  {
+    "Id": "78864db6-56ca-4b91-9466-9c8ba93f08c0",
+    "Location": "4200 Monument Drive",
+    "Rooms": 2,
+    "Size": 102,
+    "Published": "2023-04-07",
+    "Publisher": "Eyde Jacquest"
+  },
+  {
+    "Id": "dbd41dbe-a96d-4378-8628-ac77acf4c9ef",
+    "Location": "78 Waxwing Point",
+    "Rooms": 5,
+    "Size": 85,
+    "Published": "2022-11-16",
+    "Publisher": "Zechariah Dunmore"
+  },
+  {
+    "Id": "48838f4f-9c14-4d32-ad76-7f8b57c9e45e",
+    "Location": "8 Hintze Way",
+    "Rooms": 1,
+    "Size": 87,
+    "Published": "2023-05-16",
+    "Publisher": "Brit Lorkin"
+  },
+  {
+    "Id": "23116885-8eef-427f-bcba-9c3fb27e0b5d",
+    "Location": "6198 3rd Avenue",
+    "Rooms": 4,
+    "Size": 129,
+    "Published": "2023-06-22",
+    "Publisher": "Caroline Boggas"
+  },
+  {
+    "Id": "662690b8-c78f-4b35-9f54-6e41693ffc45",
+    "Location": "53 Marquette Alley",
+    "Rooms": 1,
+    "Size": 51,
+    "Published": "2023-06-20",
+    "Publisher": "Natalee Jurewicz"
+  },
+  {
+    "Id": "0d6e5452-4710-4e9d-bdf8-0fea5fe587b4",
+    "Location": "6 Jenifer Drive",
+    "Rooms": 3,
+    "Size": 74,
+    "Published": "2022-10-27",
+    "Publisher": "Gareth Stronge"
+  },
+  {
+    "Id": "9c9bf15f-4828-4a4d-aea3-99e7c2f0b1b3",
+    "Location": "2 Sullivan Center",
+    "Rooms": 4,
+    "Size": 24,
+    "Published": "2022-12-10",
+    "Publisher": "Robinet Goldstone"
+  },
+  {
+    "Id": "e53b97ba-7dff-4112-b229-9720b3671eaf",
+    "Location": "19 Daystar Road",
+    "Rooms": 5,
+    "Size": 122,
+    "Published": "2023-04-23",
+    "Publisher": "Towney Linskill"
+  },
+  {
+    "Id": "10a1619c-2607-4cbb-bd0e-b8e2d9903661",
+    "Location": "07131 Shasta Drive",
+    "Rooms": 1,
+    "Size": 146,
+    "Published": "2023-04-27",
+    "Publisher": "Sheba Wain"
+  },
+  {
+    "Id": "b11e374c-ea1e-4a10-81b9-f1c9371f7038",
+    "Location": "4550 Knutson Court",
+    "Rooms": 4,
+    "Size": 143,
+    "Published": "2022-12-02",
+    "Publisher": "Felicle Bonson"
+  },
+  {
+    "Id": "caf8c909-b179-4820-83df-11c212329edb",
+    "Location": "96648 Westerfield Place",
+    "Rooms": 6,
+    "Size": 31,
+    "Published": "2022-08-04",
+    "Publisher": "Anderson Mellhuish"
+  },
+  {
+    "Id": "e72fd960-48a1-407b-873c-8006ef1fce15",
+    "Location": "591 Sheridan Hill",
+    "Rooms": 6,
+    "Size": 73,
+    "Published": "2022-10-14",
+    "Publisher": "Josefa Beswetherick"
+  },
+  {
+    "Id": "73e05a34-c100-438c-b9ed-ff1284f4baef",
+    "Location": "4 Hovde Hill",
+    "Rooms": 6,
+    "Size": 123,
+    "Published": "2023-07-10",
+    "Publisher": "Jeni Norster"
+  },
+  {
+    "Id": "13a3d0f6-2223-4e25-a784-b4d3b7ac0c94",
+    "Location": "1 Towne Plaza",
+    "Rooms": 1,
+    "Size": 21,
+    "Published": "2022-12-20",
+    "Publisher": "Selby Biers"
+  },
+  {
+    "Id": "6244cf4e-e64e-455f-a5b0-4c2d7290f485",
+    "Location": "2686 Talisman Terrace",
+    "Rooms": 2,
+    "Size": 97,
+    "Published": "2023-04-15",
+    "Publisher": "Carlie Walczak"
+  },
+  {
+    "Id": "efa1b05b-4a8c-408f-8029-0b1debf21ee2",
+    "Location": "98 Thierer Circle",
+    "Rooms": 6,
+    "Size": 69,
+    "Published": "2023-05-23",
+    "Publisher": "Newton Fishpool"
+  },
+  {
+    "Id": "9dfdee07-23c5-4761-8b71-0c4bea38851a",
+    "Location": "245 Kedzie Lane",
+    "Rooms": 5,
+    "Size": 66,
+    "Published": "2023-03-23",
+    "Publisher": "Herschel Ixer"
+  },
+  {
+    "Id": "2344dd7f-6725-4fae-b246-6388f4af461c",
+    "Location": "81371 Basil Drive",
+    "Rooms": 6,
+    "Size": 88,
+    "Published": "2023-01-11",
+    "Publisher": "Winna Gilchrest"
+  },
+  {
+    "Id": "79ffd765-4369-4c8f-b35b-a126b23a14d3",
+    "Location": "7 Morrow Pass",
+    "Rooms": 3,
+    "Size": 129,
+    "Published": "2022-10-05",
+    "Publisher": "Sondra Dalloway"
+  },
+  {
+    "Id": "bbacc771-93c7-4e16-a1d9-32a7bbffd7b7",
+    "Location": "4 Longview Hill",
+    "Rooms": 4,
+    "Size": 73,
+    "Published": "2023-07-11",
+    "Publisher": "Shepard Sill"
+  },
+  {
+    "Id": "84f4a3c4-cd12-4eca-9b4a-d3c247e857fe",
+    "Location": "994 3rd Pass",
+    "Rooms": 5,
+    "Size": 141,
+    "Published": "2022-10-11",
+    "Publisher": "Kissie Ovanesian"
+  },
+  {
+    "Id": "ed5ca21b-3a72-4cc0-9f33-a0e4c6aa83e3",
+    "Location": "9855 Delladonna Parkway",
+    "Rooms": 2,
+    "Size": 146,
+    "Published": "2022-09-25",
+    "Publisher": "Barret Stych"
+  },
+  {
+    "Id": "069192df-72a8-48b8-b147-f7ee9e1ce548",
+    "Location": "51589 Roth Junction",
+    "Rooms": 2,
+    "Size": 24,
+    "Published": "2022-12-25",
+    "Publisher": "Armin Cluett"
+  },
+  {
+    "Id": "68621099-a201-4d75-bdb6-a42fc6a51772",
+    "Location": "79 Bellgrove Parkway",
+    "Rooms": 3,
+    "Size": 143,
+    "Published": "2023-03-03",
+    "Publisher": "Sonia Verissimo"
+  },
+  {
+    "Id": "dedfa956-3feb-4e16-a158-1f68c6de095c",
+    "Location": "2 Towne Junction",
+    "Rooms": 1,
+    "Size": 147,
+    "Published": "2022-09-24",
+    "Publisher": "Birk Boldry"
+  },
+  {
+    "Id": "a9061766-58eb-4f3f-add9-34ac358101fc",
+    "Location": "62406 Thompson Junction",
+    "Rooms": 3,
+    "Size": 85,
+    "Published": "2022-12-29",
+    "Publisher": "Dino Silcox"
+  },
+  {
+    "Id": "31bad89a-3099-49ad-bd07-c7de5ca7ced1",
+    "Location": "22 Fremont Drive",
+    "Rooms": 1,
+    "Size": 31,
+    "Published": "2022-07-29",
+    "Publisher": "Lorant Doubrava"
+  },
+  {
+    "Id": "8250ddee-ac58-4339-bb98-c041460b3572",
+    "Location": "76 Truax Park",
+    "Rooms": 6,
+    "Size": 83,
+    "Published": "2022-09-29",
+    "Publisher": "Krissy Pearde"
+  },
+  {
+    "Id": "3d8e442b-8061-45ad-b853-6aedb9520d88",
+    "Location": "75 Hayes Point",
+    "Rooms": 3,
+    "Size": 92,
+    "Published": "2023-01-30",
+    "Publisher": "Davy Hulme"
+  },
+  {
+    "Id": "1d72decb-6891-4bfb-8298-166d9b87948c",
+    "Location": "702 Welch Hill",
+    "Rooms": 5,
+    "Size": 34,
+    "Published": "2023-01-13",
+    "Publisher": "Chris Wynrahame"
+  },
+  {
+    "Id": "91476bf4-abdc-402c-9b3d-d2dd789ec6aa",
+    "Location": "843 Summerview Place",
+    "Rooms": 6,
+    "Size": 75,
+    "Published": "2022-10-21",
+    "Publisher": "Thibaut Terzi"
+  },
+  {
+    "Id": "3237a9c1-f1a6-4e68-a6ff-ad604cfbce8e",
+    "Location": "3 Iowa Plaza",
+    "Rooms": 6,
+    "Size": 47,
+    "Published": "2022-08-24",
+    "Publisher": "Leonardo Sherreard"
+  },
+  {
+    "Id": "40e3872c-710c-45e6-bbff-b1e0c5cd8f00",
+    "Location": "410 Muir Pass",
+    "Rooms": 4,
+    "Size": 35,
+    "Published": "2023-03-18",
+    "Publisher": "Conn Dunrige"
+  },
+  {
+    "Id": "38b9d26c-04b3-4a18-a942-219ec6f101d3",
+    "Location": "39 Vermont Place",
+    "Rooms": 3,
+    "Size": 63,
+    "Published": "2022-11-13",
+    "Publisher": "Julee Howis"
+  },
+  {
+    "Id": "3cc03ec4-0c88-4502-b14f-b7bbb3a3e712",
+    "Location": "16 Westport Hill",
+    "Rooms": 2,
+    "Size": 79,
+    "Published": "2023-01-06",
+    "Publisher": "Janenna Ferminger"
+  },
+  {
+    "Id": "c3a766a7-6967-4c27-a960-bad9b51a4d14",
+    "Location": "2 American Junction",
+    "Rooms": 2,
+    "Size": 10,
+    "Published": "2022-12-31",
+    "Publisher": "Umeko McCuaig"
+  },
+  {
+    "Id": "d4ae9aa6-beab-49a5-84b2-4c23e8a56647",
+    "Location": "379 Cottonwood Street",
+    "Rooms": 5,
+    "Size": 65,
+    "Published": "2023-02-20",
+    "Publisher": "Enid Hebbron"
+  },
+  {
+    "Id": "4696a561-7fe4-4c53-9d20-aab8ebfa644d",
+    "Location": "22931 Dayton Parkway",
+    "Rooms": 1,
+    "Size": 25,
+    "Published": "2022-09-25",
+    "Publisher": "Cobby Meltetal"
+  },
+  {
+    "Id": "e977ff32-f5f7-4eb1-8f8a-7b9fd8cbb83f",
+    "Location": "651 Burning Wood Place",
+    "Rooms": 4,
+    "Size": 115,
+    "Published": "2022-12-04",
+    "Publisher": "Murvyn MacGilpatrick"
+  },
+  {
+    "Id": "82a76194-53c5-4cb7-a76b-52866cb198d5",
+    "Location": "4 Ludington Hill",
+    "Rooms": 6,
+    "Size": 34,
+    "Published": "2022-09-11",
+    "Publisher": "Valina MacNamee"
+  },
+  {
+    "Id": "4f1bab4f-17c2-4533-ad6b-978cda7daeba",
+    "Location": "624 Bonner Center",
+    "Rooms": 3,
+    "Size": 96,
+    "Published": "2023-05-19",
+    "Publisher": "Dewitt Durie"
+  },
+  {
+    "Id": "b03d7187-e41c-4f54-8112-c93b13201c25",
+    "Location": "960 Service Lane",
+    "Rooms": 1,
+    "Size": 102,
+    "Published": "2023-03-27",
+    "Publisher": "Erinn Krolak"
+  },
+  {
+    "Id": "d98308b9-abca-45f6-82ed-9683920d6c40",
+    "Location": "32 Prairie Rose Center",
+    "Rooms": 5,
+    "Size": 52,
+    "Published": "2022-11-27",
+    "Publisher": "Binny Jansey"
+  },
+  {
+    "Id": "eec4caf7-a7f0-4cd0-b998-f199aefc3dea",
+    "Location": "70798 Waubesa Parkway",
+    "Rooms": 1,
+    "Size": 104,
+    "Published": "2023-01-09",
+    "Publisher": "Guglielma Yarwood"
+  },
+  {
+    "Id": "a71d3cde-1b6b-4c9e-9198-c0bb8ba011cc",
+    "Location": "00 Vera Pass",
+    "Rooms": 6,
+    "Size": 94,
+    "Published": "2023-04-21",
+    "Publisher": "Marta Sprowson"
+  },
+  {
+    "Id": "d3e8f617-f9e5-4af2-9351-c57afacde7e6",
+    "Location": "80157 Steensland Pass",
+    "Rooms": 1,
+    "Size": 114,
+    "Published": "2022-12-04",
+    "Publisher": "Berny Truelock"
+  },
+  {
+    "Id": "1daed601-0911-4271-86e5-4e93d46fd97a",
+    "Location": "604 Artisan Pass",
+    "Rooms": 6,
+    "Size": 111,
+    "Published": "2023-02-26",
+    "Publisher": "Shelden Dorie"
+  },
+  {
+    "Id": "52426e5e-e607-48e5-b469-f718cc1c5f4d",
+    "Location": "2 Tennessee Avenue",
+    "Rooms": 4,
+    "Size": 131,
+    "Published": "2023-02-23",
+    "Publisher": "Ephrem Wylam"
+  },
+  {
+    "Id": "46c98b44-db3c-4839-bfc3-eb6aa64959e9",
+    "Location": "2859 Moose Place",
+    "Rooms": 6,
+    "Size": 51,
+    "Published": "2022-07-30",
+    "Publisher": "Ewart Karys"
+  },
+  {
+    "Id": "d10f8863-bca0-46f1-ac25-cf1ff9e5cf79",
+    "Location": "734 Mendota Terrace",
+    "Rooms": 4,
+    "Size": 85,
+    "Published": "2023-03-13",
+    "Publisher": "Magnum Matts"
+  },
+  {
+    "Id": "9e22239a-f798-4918-a62e-7c96d835a3b0",
+    "Location": "4035 Chinook Crossing",
+    "Rooms": 5,
+    "Size": 33,
+    "Published": "2023-06-27",
+    "Publisher": "Ailene McKevitt"
+  },
+  {
+    "Id": "28c17f5c-39b4-4d3e-a2c5-433db63b0378",
+    "Location": "9862 Dennis Park",
+    "Rooms": 6,
+    "Size": 26,
+    "Published": "2023-06-11",
+    "Publisher": "Graehme Vasin"
+  },
+  {
+    "Id": "3f9ef9f8-5f86-40f3-9382-06ddd8caaddd",
+    "Location": "42 High Crossing Lane",
+    "Rooms": 2,
+    "Size": 91,
+    "Published": "2022-08-17",
+    "Publisher": "Desiree Sweedland"
+  },
+  {
+    "Id": "8a76e661-3dc1-49ce-948f-dbac4544cd97",
+    "Location": "16 Laurel Lane",
+    "Rooms": 1,
+    "Size": 101,
+    "Published": "2023-03-08",
+    "Publisher": "Kamila Andino"
+  },
+  {
+    "Id": "8f98324e-e01f-4a93-aa20-85387bbf91e5",
+    "Location": "07 Helena Pass",
+    "Rooms": 5,
+    "Size": 131,
+    "Published": "2023-03-13",
+    "Publisher": "Sarine Pach"
+  },
+  {
+    "Id": "763433fc-a549-48fa-8eb0-a4ee85a3928b",
+    "Location": "10593 Fair Oaks Pass",
+    "Rooms": 5,
+    "Size": 54,
+    "Published": "2023-01-26",
+    "Publisher": "Stafani Hartfleet"
+  },
+  {
+    "Id": "9b6bb47a-f42b-41fc-a784-9f250c9f5f68",
+    "Location": "53513 Tennyson Place",
+    "Rooms": 5,
+    "Size": 94,
+    "Published": "2023-01-02",
+    "Publisher": "Asia Siret"
+  },
+  {
+    "Id": "17e6990f-f35b-4824-8754-d477ae2e7005",
+    "Location": "0 Hansons Lane",
+    "Rooms": 5,
+    "Size": 20,
+    "Published": "2023-06-24",
+    "Publisher": "Thedric Eaglen"
+  },
+  {
+    "Id": "0c76c13a-086e-4264-80b1-df157f5a3b30",
+    "Location": "016 Parkside Plaza",
+    "Rooms": 3,
+    "Size": 23,
+    "Published": "2023-06-30",
+    "Publisher": "Colleen Gedney"
+  },
+  {
+    "Id": "48cbc8f3-a126-41cf-8904-65e0723111fe",
+    "Location": "549 Talisman Court",
+    "Rooms": 4,
+    "Size": 128,
+    "Published": "2022-11-21",
+    "Publisher": "Dominik Caplis"
+  },
+  {
+    "Id": "5d64ff24-af9e-4dd8-83e6-c45337aef6c1",
+    "Location": "0 Oak Road",
+    "Rooms": 2,
+    "Size": 27,
+    "Published": "2022-10-08",
+    "Publisher": "Sigrid Dossettor"
+  },
+  {
+    "Id": "3162b98a-cd7a-4eac-a7b9-4ab31f10f7fd",
+    "Location": "16 Corben Point",
+    "Rooms": 4,
+    "Size": 101,
+    "Published": "2023-07-24",
+    "Publisher": "Harland Tynemouth"
+  },
+  {
+    "Id": "7cdeb8b1-44d8-4b56-a1e3-a2e52390c760",
+    "Location": "3148 Haas Center",
+    "Rooms": 1,
+    "Size": 38,
+    "Published": "2023-06-30",
+    "Publisher": "Sheelagh Soggee"
+  },
+  {
+    "Id": "c3690ba0-f859-426d-9827-926d70b676c1",
+    "Location": "46730 Pankratz Crossing",
+    "Rooms": 2,
+    "Size": 147,
+    "Published": "2022-08-07",
+    "Publisher": "Chaddie Skellon"
+  },
+  {
+    "Id": "f5874dd7-dbe4-4485-9711-2d32e81bbed4",
+    "Location": "4 Shopko Terrace",
+    "Rooms": 4,
+    "Size": 68,
+    "Published": "2023-06-16",
+    "Publisher": "Alejandrina Gibson"
+  },
+  {
+    "Id": "a678a4b3-ac2e-4d59-970e-b8145eb0e14d",
+    "Location": "13944 Lindbergh Park",
+    "Rooms": 2,
+    "Size": 106,
+    "Published": "2023-02-07",
+    "Publisher": "Johannes Tinsey"
+  },
+  {
+    "Id": "7f4b5d3d-a973-4661-9fec-def8762a302e",
+    "Location": "2 Coolidge Center",
+    "Rooms": 4,
+    "Size": 83,
+    "Published": "2023-07-07",
+    "Publisher": "Pierson Hause"
+  },
+  {
+    "Id": "99dcaca1-4171-42f0-90b9-0a67d6549aca",
+    "Location": "25134 Mccormick Center",
+    "Rooms": 6,
+    "Size": 81,
+    "Published": "2022-11-29",
+    "Publisher": "Rora Fourcade"
+  },
+  {
+    "Id": "95217493-33fb-40db-abb3-99b0d5842c92",
+    "Location": "3728 Maple Way",
+    "Rooms": 3,
+    "Size": 2,
+    "Published": "2023-05-22",
+    "Publisher": "Cirillo Mixon"
+  },
+  {
+    "Id": "88103e3a-a089-4743-9d59-9f42a96a7ddc",
+    "Location": "871 Waubesa Pass",
+    "Rooms": 1,
+    "Size": 59,
+    "Published": "2023-07-01",
+    "Publisher": "Noah Furminger"
+  },
+  {
+    "Id": "af5f699a-cde0-4309-a20f-38d3be4e7759",
+    "Location": "6948 Anniversary Road",
+    "Rooms": 5,
+    "Size": 143,
+    "Published": "2022-08-08",
+    "Publisher": "Caldwell Rist"
+  },
+  {
+    "Id": "a7e775c0-0880-4d3a-8473-59025da78a20",
+    "Location": "5 Vidon Road",
+    "Rooms": 5,
+    "Size": 13,
+    "Published": "2022-08-11",
+    "Publisher": "Rosanna Yven"
+  },
+  {
+    "Id": "13336c7b-55d6-4b1a-9567-ba544b27bb34",
+    "Location": "06448 Ridgeway Road",
+    "Rooms": 6,
+    "Size": 34,
+    "Published": "2022-09-27",
+    "Publisher": "Graeme Tidridge"
+  },
+  {
+    "Id": "26d1d5ef-a16a-4a48-b7b8-3e73bc646c17",
+    "Location": "10216 Hayes Avenue",
+    "Rooms": 2,
+    "Size": 76,
+    "Published": "2023-07-06",
+    "Publisher": "Mac Carah"
+  },
+  {
+    "Id": "c81c796b-227d-453d-96b3-489c9a9ca230",
+    "Location": "529 Leroy Park",
+    "Rooms": 3,
+    "Size": 52,
+    "Published": "2023-02-20",
+    "Publisher": "Kania Emps"
+  },
+  {
+    "Id": "c083db4e-31f4-4427-a70b-bbacbaf51770",
+    "Location": "3 Meadow Vale Park",
+    "Rooms": 2,
+    "Size": 14,
+    "Published": "2023-03-24",
+    "Publisher": "Philippine Paniman"
+  },
+  {
+    "Id": "bbe94f4b-90a7-49c8-a47b-65e2fc9c1152",
+    "Location": "7922 Lerdahl Hill",
+    "Rooms": 6,
+    "Size": 124,
+    "Published": "2023-01-26",
+    "Publisher": "Rogerio McWaters"
+  },
+  {
+    "Id": "27d4ac35-8e0b-464e-a8aa-2ff2b80cf502",
+    "Location": "61 Twin Pines Street",
+    "Rooms": 2,
+    "Size": 65,
+    "Published": "2023-06-04",
+    "Publisher": "Kathlin Goodbourn"
+  },
+  {
+    "Id": "189e3edd-3396-41ca-bd0c-eebc78583116",
+    "Location": "360 Green Ridge Way",
+    "Rooms": 1,
+    "Size": 121,
+    "Published": "2022-10-14",
+    "Publisher": "Bernardine Bixley"
+  },
+  {
+    "Id": "c0208215-f7d0-48f8-97f9-fd1e399ae809",
+    "Location": "87 Steensland Court",
+    "Rooms": 4,
+    "Size": 95,
+    "Published": "2022-09-18",
+    "Publisher": "Edgardo Klaffs"
+  },
+  {
+    "Id": "c4664540-40f8-41c9-a363-56f6359e5a9f",
+    "Location": "26 Monica Avenue",
+    "Rooms": 5,
+    "Size": 20,
+    "Published": "2023-07-13",
+    "Publisher": "Chrissy Hugonin"
+  },
+  {
+    "Id": "6aa04c22-0713-494d-bb10-6e0ebd181c0f",
+    "Location": "36437 Katie Junction",
+    "Rooms": 4,
+    "Size": 66,
+    "Published": "2023-03-27",
+    "Publisher": "Jacquenette Challice"
+  },
+  {
+    "Id": "0bcb1217-c24b-4f23-9aca-ce9290cf0fba",
+    "Location": "2493 Butternut Circle",
+    "Rooms": 3,
+    "Size": 149,
+    "Published": "2022-12-02",
+    "Publisher": "Kyle Hutson"
+  },
+  {
+    "Id": "6a627f3e-86a9-49df-9e30-f4d23b9409a2",
+    "Location": "5723 Goodland Trail",
+    "Rooms": 6,
+    "Size": 86,
+    "Published": "2022-11-23",
+    "Publisher": "Mercy Hackney"
+  },
+  {
+    "Id": "b48db99b-0e4a-4390-9b36-6befb14f38e0",
+    "Location": "1298 Stephen Street",
+    "Rooms": 4,
+    "Size": 138,
+    "Published": "2023-01-30",
+    "Publisher": "Hube Beernt"
+  },
+  {
+    "Id": "b2577991-3555-40ae-89b0-57bec019cabf",
+    "Location": "19 Ronald Regan Center",
+    "Rooms": 3,
+    "Size": 67,
+    "Published": "2023-02-06",
+    "Publisher": "Doug Toupe"
+  },
+  {
+    "Id": "4a75244e-a0d8-4442-92cc-254d3ab7d8cf",
+    "Location": "52 Corscot Park",
+    "Rooms": 5,
+    "Size": 110,
+    "Published": "2022-10-07",
+    "Publisher": "Fleming Blaschek"
+  },
+  {
+    "Id": "1b216d38-f14c-4343-ab06-6e73282a78fb",
+    "Location": "532 Thackeray Center",
+    "Rooms": 1,
+    "Size": 145,
+    "Published": "2023-05-22",
+    "Publisher": "Carlyn Moore"
+  },
+  {
+    "Id": "46bdee01-f19c-48f0-84d0-6085d4d7f1c8",
+    "Location": "3502 Express Center",
+    "Rooms": 2,
+    "Size": 142,
+    "Published": "2023-06-01",
+    "Publisher": "Camilla Stirland"
+  },
+  {
+    "Id": "b73fa1ad-aaae-4b48-a5ea-d12d097284b7",
+    "Location": "94 Fulton Drive",
+    "Rooms": 4,
+    "Size": 90,
+    "Published": "2023-02-20",
+    "Publisher": "Edythe Seebert"
+  },
+  {
+    "Id": "f7835242-2fe6-4315-92f0-52963d83a79b",
+    "Location": "2297 Melrose Plaza",
+    "Rooms": 3,
+    "Size": 104,
+    "Published": "2023-03-30",
+    "Publisher": "Forest Hourigan"
+  },
+  {
+    "Id": "8c02a9f1-ceb6-4155-8812-40d6115c7cc7",
+    "Location": "488 Melvin Way",
+    "Rooms": 1,
+    "Size": 54,
+    "Published": "2023-05-22",
+    "Publisher": "Branden Rubin"
+  },
+  {
+    "Id": "a0f34114-4f4c-4f28-8329-71011ebc9147",
+    "Location": "52528 Grasskamp Hill",
+    "Rooms": 5,
+    "Size": 67,
+    "Published": "2023-07-08",
+    "Publisher": "Willie Shipcott"
+  },
+  {
+    "Id": "0d7a1e31-b557-4d2d-a331-4b101a19b583",
+    "Location": "915 Bowman Parkway",
+    "Rooms": 5,
+    "Size": 114,
+    "Published": "2023-05-16",
+    "Publisher": "Eamon Isakovitch"
+  },
+  {
+    "Id": "401ec21b-21ea-43d2-9d53-0ba9966cd1a2",
+    "Location": "2 Graceland Drive",
+    "Rooms": 3,
+    "Size": 50,
+    "Published": "2023-03-31",
+    "Publisher": "Mathe Flury"
+  },
+  {
+    "Id": "808a9b03-77f9-42cc-8415-fac4d7238d78",
+    "Location": "56131 Forster Road",
+    "Rooms": 3,
+    "Size": 133,
+    "Published": "2022-10-22",
+    "Publisher": "Sancho Gorrie"
+  },
+  {
+    "Id": "376f08bc-1fa9-4151-99a3-72af79f85715",
+    "Location": "1546 Pierstorff Lane",
+    "Rooms": 6,
+    "Size": 66,
+    "Published": "2022-09-07",
+    "Publisher": "Carmela O'Connor"
+  },
+  {
+    "Id": "a66c79ab-72c1-489a-814e-621530dc0ff5",
+    "Location": "40304 Pierstorff Drive",
+    "Rooms": 3,
+    "Size": 29,
+    "Published": "2023-05-27",
+    "Publisher": "Silvana Lenden"
+  },
+  {
+    "Id": "a01f1c84-9ee1-47ac-ba7b-0f0799180181",
+    "Location": "9 Fieldstone Road",
+    "Rooms": 5,
+    "Size": 3,
+    "Published": "2023-07-15",
+    "Publisher": "Mady Plenty"
+  },
+  {
+    "Id": "271b7453-d9b5-4818-97ed-f47d411646ed",
+    "Location": "6096 Memorial Hill",
+    "Rooms": 6,
+    "Size": 95,
+    "Published": "2022-11-11",
+    "Publisher": "Orren Gudgen"
+  },
+  {
+    "Id": "fc29acfd-e8da-4114-98cd-fc42bc6d2ccb",
+    "Location": "476 Hanover Drive",
+    "Rooms": 1,
+    "Size": 135,
+    "Published": "2023-02-09",
+    "Publisher": "Hulda Gilardi"
+  },
+  {
+    "Id": "76131221-77dd-422c-97f9-b01de9e34b2a",
+    "Location": "9647 Longview Lane",
+    "Rooms": 5,
+    "Size": 23,
+    "Published": "2022-11-07",
+    "Publisher": "Cullen Aust"
+  },
+  {
+    "Id": "2a71783d-742a-429d-995f-a5d0ea0061cb",
+    "Location": "35 North Trail",
+    "Rooms": 5,
+    "Size": 150,
+    "Published": "2023-06-05",
+    "Publisher": "Joe Birchner"
+  },
+  {
+    "Id": "93901d4c-9d88-45f3-a5ab-ff88dda3d7d3",
+    "Location": "0518 Calypso Circle",
+    "Rooms": 6,
+    "Size": 82,
+    "Published": "2023-02-24",
+    "Publisher": "Kenneth Climar"
+  },
+  {
+    "Id": "e73a3ec1-1834-49d6-9af8-5a4ba9a94d3c",
+    "Location": "99998 Corry Lane",
+    "Rooms": 3,
+    "Size": 10,
+    "Published": "2023-07-19",
+    "Publisher": "Joli Connerly"
+  },
+  {
+    "Id": "a2d4b92c-b9a4-48aa-b592-d83f8d580aa5",
+    "Location": "08 Park Meadow Place",
+    "Rooms": 5,
+    "Size": 142,
+    "Published": "2022-09-09",
+    "Publisher": "Corney Windley"
+  },
+  {
+    "Id": "6e7d78ba-fc51-4480-8c24-ec47f85cf313",
+    "Location": "9 Carioca Drive",
+    "Rooms": 3,
+    "Size": 130,
+    "Published": "2022-12-12",
+    "Publisher": "Caresse Combe"
+  },
+  {
+    "Id": "89db3998-f5c3-4794-a785-3a676fc63370",
+    "Location": "25 Schmedeman Lane",
+    "Rooms": 1,
+    "Size": 147,
+    "Published": "2023-03-02",
+    "Publisher": "Galvan Beardsley"
+  },
+  {
+    "Id": "aba56a44-4c7e-448f-835b-8174b7bf9a70",
+    "Location": "0 Sauthoff Road",
+    "Rooms": 1,
+    "Size": 102,
+    "Published": "2022-09-16",
+    "Publisher": "Aloysius Spurling"
+  },
+  {
+    "Id": "7a4c155f-6323-4307-867c-55553d132093",
+    "Location": "0447 Maple Hill",
+    "Rooms": 4,
+    "Size": 12,
+    "Published": "2022-08-25",
+    "Publisher": "Seth Acklands"
+  },
+  {
+    "Id": "b05f607c-ac99-4cd1-b14d-04939b1eb077",
+    "Location": "8 Victoria Way",
+    "Rooms": 6,
+    "Size": 105,
+    "Published": "2022-12-14",
+    "Publisher": "Desmund Quin"
+  },
+  {
+    "Id": "7cc174b0-11f1-48e9-a241-768a70e5f73a",
+    "Location": "83649 Glendale Point",
+    "Rooms": 1,
+    "Size": 50,
+    "Published": "2023-06-30",
+    "Publisher": "Yuri Cornborough"
+  },
+  {
+    "Id": "c50b5883-ec27-4adb-9934-44b9bc7467b5",
+    "Location": "640 Morning Place",
+    "Rooms": 2,
+    "Size": 23,
+    "Published": "2022-08-28",
+    "Publisher": "Finlay Jobey"
+  },
+  {
+    "Id": "fe9dceda-7dc7-4d27-b15a-5978ef6bde19",
+    "Location": "1 Lawn Crossing",
+    "Rooms": 2,
+    "Size": 42,
+    "Published": "2022-10-23",
+    "Publisher": "Windham Sher"
+  },
+  {
+    "Id": "348764f6-7228-4492-8cfa-3b8d30aa2f5f",
+    "Location": "77 Sheridan Drive",
+    "Rooms": 3,
+    "Size": 118,
+    "Published": "2023-04-14",
+    "Publisher": "Herbert Ivons"
+  },
+  {
+    "Id": "029fe6d8-8a4e-4630-87b4-c87372ef550b",
+    "Location": "32428 Pierstorff Avenue",
+    "Rooms": 4,
+    "Size": 92,
+    "Published": "2023-03-06",
+    "Publisher": "Buckie O'Sculley"
+  },
+  {
+    "Id": "80e4453f-d40a-4209-abec-c207e9a73ca0",
+    "Location": "17509 Cardinal Pass",
+    "Rooms": 1,
+    "Size": 144,
+    "Published": "2023-01-31",
+    "Publisher": "Otha Orleton"
+  },
+  {
+    "Id": "43f181ea-2c50-4c72-a5cc-e8c45a9cc0e0",
+    "Location": "76085 Spenser Circle",
+    "Rooms": 5,
+    "Size": 16,
+    "Published": "2023-07-15",
+    "Publisher": "Sidnee Undrell"
+  },
+  {
+    "Id": "99f1a8b8-a559-403f-9935-b328b577e9f5",
+    "Location": "240 Summer Ridge Pass",
+    "Rooms": 4,
+    "Size": 114,
+    "Published": "2023-06-07",
+    "Publisher": "Prissie Weatherall"
+  },
+  {
+    "Id": "07b6534a-cc2a-4cf8-9af8-d408ebe38f0d",
+    "Location": "93060 Hazelcrest Street",
+    "Rooms": 3,
+    "Size": 103,
+    "Published": "2022-12-19",
+    "Publisher": "Alvie Bold"
+  },
+  {
+    "Id": "120146e0-659f-4008-891d-181fca2aaa5a",
+    "Location": "722 Shasta Parkway",
+    "Rooms": 3,
+    "Size": 142,
+    "Published": "2022-07-31",
+    "Publisher": "Kissiah Sailer"
+  },
+  {
+    "Id": "3886ed60-0dbf-4276-906d-01673689aa43",
+    "Location": "2 Anzinger Avenue",
+    "Rooms": 1,
+    "Size": 70,
+    "Published": "2023-04-14",
+    "Publisher": "Candida Dibdall"
+  },
+  {
+    "Id": "1f09da1b-8544-4fe0-81cc-2735f1111571",
+    "Location": "25128 7th Center",
+    "Rooms": 6,
+    "Size": 72,
+    "Published": "2022-10-28",
+    "Publisher": "Arline Marlen"
+  },
+  {
+    "Id": "43e01060-c3f8-40ef-a807-759fa21d305f",
+    "Location": "97426 Trailsway Pass",
+    "Rooms": 2,
+    "Size": 13,
+    "Published": "2023-01-03",
+    "Publisher": "Shina Bernardinelli"
+  },
+  {
+    "Id": "b0734ecf-5a8a-4d4e-bb59-6b7ad13b7705",
+    "Location": "5 Dwight Alley",
+    "Rooms": 6,
+    "Size": 99,
+    "Published": "2023-03-16",
+    "Publisher": "Westbrook Caghy"
+  },
+  {
+    "Id": "a5b93b25-d043-418a-b5bd-188a12a071a0",
+    "Location": "9468 Corscot Circle",
+    "Rooms": 4,
+    "Size": 101,
+    "Published": "2022-12-23",
+    "Publisher": "Corry de Mendoza"
+  },
+  {
+    "Id": "02c62a5b-98d3-4ad9-a9a0-cca029e65957",
+    "Location": "3 Stuart Road",
+    "Rooms": 5,
+    "Size": 57,
+    "Published": "2023-03-13",
+    "Publisher": "Patrizio Espie"
+  },
+  {
+    "Id": "900726aa-571c-40e0-aeeb-44b8d84ed97f",
+    "Location": "47 Gateway Crossing",
+    "Rooms": 3,
+    "Size": 139,
+    "Published": "2022-08-14",
+    "Publisher": "Loni Windley"
+  },
+  {
+    "Id": "8fcdcdb5-dc92-4c18-8fa4-4ecfcbed5052",
+    "Location": "0 Superior Terrace",
+    "Rooms": 6,
+    "Size": 109,
+    "Published": "2023-04-29",
+    "Publisher": "Elene Woodman"
+  },
+  {
+    "Id": "9c6406e2-2d64-415b-8a2b-6a0dd1a5b33d",
+    "Location": "63008 Sunbrook Pass",
+    "Rooms": 1,
+    "Size": 44,
+    "Published": "2023-04-21",
+    "Publisher": "Sigfrid Bowdrey"
+  },
+  {
+    "Id": "a9b4d7fd-c785-42b0-9ab8-fe29457cff71",
+    "Location": "45 Tony Road",
+    "Rooms": 5,
+    "Size": 48,
+    "Published": "2022-09-25",
+    "Publisher": "Terri Kimbley"
+  },
+  {
+    "Id": "859c8f7f-ddbd-4653-a563-bb88bec2649f",
+    "Location": "50 Susan Circle",
+    "Rooms": 1,
+    "Size": 122,
+    "Published": "2022-08-05",
+    "Publisher": "Rice Edmeads"
+  },
+  {
+    "Id": "cd6d0f9f-08a4-47a4-aa5c-4387f7abacca",
+    "Location": "74 Oneill Alley",
+    "Rooms": 3,
+    "Size": 55,
+    "Published": "2023-05-30",
+    "Publisher": "Osborn Jodrellec"
+  },
+  {
+    "Id": "81371de1-e2f9-49e2-9618-5fb124ac54b7",
+    "Location": "01109 Gina Junction",
+    "Rooms": 4,
+    "Size": 143,
+    "Published": "2023-07-01",
+    "Publisher": "Poppy Joost"
+  },
+  {
+    "Id": "204f8aab-741a-4d1b-8e9b-1203364d4579",
+    "Location": "49 Forest Way",
+    "Rooms": 1,
+    "Size": 57,
+    "Published": "2023-03-12",
+    "Publisher": "Lyn Watton"
+  },
+  {
+    "Id": "3516fa95-7162-48fb-83f2-e6d771ee7d32",
+    "Location": "05488 Milwaukee Center",
+    "Rooms": 1,
+    "Size": 69,
+    "Published": "2023-06-15",
+    "Publisher": "Kennith Bonafant"
+  },
+  {
+    "Id": "b6087583-24ba-4999-bc36-fd4e333f478e",
+    "Location": "25 Havey Road",
+    "Rooms": 1,
+    "Size": 137,
+    "Published": "2023-04-10",
+    "Publisher": "Judah Sego"
+  },
+  {
+    "Id": "a9032fa3-50c3-45d9-bed1-a27d84872fed",
+    "Location": "531 Jenifer Street",
+    "Rooms": 5,
+    "Size": 75,
+    "Published": "2022-08-08",
+    "Publisher": "Albie Myott"
+  },
+  {
+    "Id": "d1bf5ed3-4232-409b-9dff-8a4bc7593247",
+    "Location": "3 6th Trail",
+    "Rooms": 4,
+    "Size": 149,
+    "Published": "2023-01-21",
+    "Publisher": "Bancroft Sevitt"
+  },
+  {
+    "Id": "228cbd39-b19d-4aec-a612-15d605db86ab",
+    "Location": "0 Crownhardt Parkway",
+    "Rooms": 6,
+    "Size": 116,
+    "Published": "2023-05-03",
+    "Publisher": "Kellina Burniston"
+  },
+  {
+    "Id": "d35d8d8d-dbd6-4bc4-8d68-62597e8ac4c4",
+    "Location": "5075 Sutteridge Center",
+    "Rooms": 1,
+    "Size": 139,
+    "Published": "2023-01-17",
+    "Publisher": "Frieda Sabberton"
+  },
+  {
+    "Id": "64a857e3-2a2e-4893-8ec8-b69284a25cf7",
+    "Location": "117 Waxwing Center",
+    "Rooms": 3,
+    "Size": 108,
+    "Published": "2023-03-22",
+    "Publisher": "Randal Tieman"
+  },
+  {
+    "Id": "ff66feb5-dc98-4a2d-9a29-1659a36d6bb4",
+    "Location": "305 Oak Crossing",
+    "Rooms": 5,
+    "Size": 47,
+    "Published": "2023-03-24",
+    "Publisher": "Fowler Cheale"
+  },
+  {
+    "Id": "fd66e75c-a69d-4753-969a-3d6abbaea2e7",
+    "Location": "177 Duke Parkway",
+    "Rooms": 5,
+    "Size": 144,
+    "Published": "2023-07-19",
+    "Publisher": "Rozamond Allridge"
+  },
+  {
+    "Id": "71a3e275-1e3e-4376-be4f-ea241c84d78a",
+    "Location": "3951 Gulseth Point",
+    "Rooms": 6,
+    "Size": 69,
+    "Published": "2023-04-20",
+    "Publisher": "Dave Jenyns"
+  },
+  {
+    "Id": "68a6f5ca-17eb-4ebf-a830-40e12feb3c69",
+    "Location": "7264 Havey Trail",
+    "Rooms": 5,
+    "Size": 148,
+    "Published": "2022-12-09",
+    "Publisher": "Bryce Bryenton"
+  },
+  {
+    "Id": "61c751a7-62e5-4c20-b891-8a70e47d6b99",
+    "Location": "85481 Sugar Place",
+    "Rooms": 4,
+    "Size": 93,
+    "Published": "2022-10-23",
+    "Publisher": "Heinrick Gorvette"
+  },
+  {
+    "Id": "adcfb2d2-7d89-4224-b81f-56e9c75ac993",
+    "Location": "590 Pearson Lane",
+    "Rooms": 3,
+    "Size": 59,
+    "Published": "2023-03-29",
+    "Publisher": "Abbi Waghorne"
+  },
+  {
+    "Id": "76e061ee-7b8f-408e-a104-e46a626ea84b",
+    "Location": "1544 Artisan Way",
+    "Rooms": 4,
+    "Size": 13,
+    "Published": "2022-10-26",
+    "Publisher": "Carley Tempest"
+  },
+  {
+    "Id": "d7e8eb62-7151-4fbd-a2f1-4880d3229b0b",
+    "Location": "2 Farmco Plaza",
+    "Rooms": 5,
+    "Size": 24,
+    "Published": "2022-09-11",
+    "Publisher": "Sampson Zmitruk"
+  },
+  {
+    "Id": "ff2d94da-c974-45e6-93af-43bb827ce1b1",
+    "Location": "79407 Eastwood Trail",
+    "Rooms": 1,
+    "Size": 51,
+    "Published": "2023-06-08",
+    "Publisher": "Terri Alliott"
+  },
+  {
+    "Id": "14d01ad9-3aae-4414-a781-145cf9c105ee",
+    "Location": "2 Independence Lane",
+    "Rooms": 1,
+    "Size": 49,
+    "Published": "2023-02-23",
+    "Publisher": "Hayward Biggadyke"
+  },
+  {
+    "Id": "66811378-ffe5-40a2-9343-bb6f3eddcfff",
+    "Location": "62915 Goodland Place",
+    "Rooms": 3,
+    "Size": 105,
+    "Published": "2022-11-17",
+    "Publisher": "Kelsey Haglinton"
+  },
+  {
+    "Id": "9326077f-d01e-4007-915e-42219fb9dcd4",
+    "Location": "5034 John Wall Court",
+    "Rooms": 4,
+    "Size": 50,
+    "Published": "2023-02-09",
+    "Publisher": "Kin Eacle"
+  },
+  {
+    "Id": "b767f46b-91f0-41f1-ad52-dc7a61099a59",
+    "Location": "3 Sauthoff Point",
+    "Rooms": 5,
+    "Size": 42,
+    "Published": "2023-07-22",
+    "Publisher": "Ali Cheyney"
+  },
+  {
+    "Id": "60f59713-68fd-48ed-8697-c9c468aede0b",
+    "Location": "787 Mendota Parkway",
+    "Rooms": 3,
+    "Size": 79,
+    "Published": "2022-11-06",
+    "Publisher": "Rickie Dugmore"
+  },
+  {
+    "Id": "fe910608-6214-4b66-b5ce-01fcd05cbee6",
+    "Location": "4 Bayside Street",
+    "Rooms": 6,
+    "Size": 91,
+    "Published": "2023-03-08",
+    "Publisher": "Esra M'cowis"
+  },
+  {
+    "Id": "2da72e89-ec5b-4d75-91b8-ca1a9be09577",
+    "Location": "85550 Merchant Terrace",
+    "Rooms": 2,
+    "Size": 65,
+    "Published": "2023-01-30",
+    "Publisher": "Maude Casillas"
+  },
+  {
+    "Id": "5ff9f030-e160-4b45-8ee5-ae2744d5f7ad",
+    "Location": "0489 Sundown Drive",
+    "Rooms": 3,
+    "Size": 69,
+    "Published": "2022-09-12",
+    "Publisher": "Kaylyn Kleinhausen"
+  },
+  {
+    "Id": "756f3da6-a1da-43f9-805d-f6dbc33f2803",
+    "Location": "0 Crescent Oaks Park",
+    "Rooms": 2,
+    "Size": 36,
+    "Published": "2022-07-26",
+    "Publisher": "Dwayne Gherardini"
+  },
+  {
+    "Id": "29c26d1f-0560-43c5-8099-2f1b047f7fb4",
+    "Location": "16 Montana Circle",
+    "Rooms": 6,
+    "Size": 78,
+    "Published": "2023-06-17",
+    "Publisher": "Denis Spray"
+  },
+  {
+    "Id": "e29610d9-75a6-438b-8372-7777ec029086",
+    "Location": "3 Manley Park",
+    "Rooms": 2,
+    "Size": 85,
+    "Published": "2023-06-14",
+    "Publisher": "Barrett Aleksandrov"
+  },
+  {
+    "Id": "c6158312-7c1e-4904-92ab-af09284bdd9b",
+    "Location": "1226 Doe Crossing Avenue",
+    "Rooms": 3,
+    "Size": 7,
+    "Published": "2022-08-19",
+    "Publisher": "Wendi Borles"
+  },
+  {
+    "Id": "9212376d-6949-4b2c-b2b1-89ee5d8ee597",
+    "Location": "423 Stuart Parkway",
+    "Rooms": 2,
+    "Size": 92,
+    "Published": "2022-08-02",
+    "Publisher": "Delmer Wooland"
+  },
+  {
+    "Id": "e355d876-9a08-4efb-84a1-625eb943d8e5",
+    "Location": "5923 Bowman Court",
+    "Rooms": 3,
+    "Size": 81,
+    "Published": "2023-06-17",
+    "Publisher": "Lyman Vasichev"
+  },
+  {
+    "Id": "bc7183e7-1bf4-4677-b4b5-2cc8bd79a4e2",
+    "Location": "71 Huxley Trail",
+    "Rooms": 5,
+    "Size": 119,
+    "Published": "2023-04-16",
+    "Publisher": "Andriette Makey"
+  },
+  {
+    "Id": "cd2e07e2-3a00-4791-afa3-189e155a7aa7",
+    "Location": "70519 Lerdahl Point",
+    "Rooms": 2,
+    "Size": 86,
+    "Published": "2022-11-05",
+    "Publisher": "Petronella Iltchev"
+  },
+  {
+    "Id": "596b58f7-6927-4387-ad5d-59fbf24b9537",
+    "Location": "5 Maple Way",
+    "Rooms": 4,
+    "Size": 122,
+    "Published": "2023-03-14",
+    "Publisher": "Quincy Rounsefull"
+  },
+  {
+    "Id": "c4383176-a9ad-4e0c-97de-0d0146ab0c3f",
+    "Location": "4704 Green Ridge Place",
+    "Rooms": 6,
+    "Size": 76,
+    "Published": "2023-02-22",
+    "Publisher": "Dew Spiteri"
+  },
+  {
+    "Id": "458c18ea-04bf-417d-b892-9cd69e225e22",
+    "Location": "5816 Mallory Avenue",
+    "Rooms": 4,
+    "Size": 73,
+    "Published": "2022-08-07",
+    "Publisher": "Calvin Fallowfield"
+  },
+  {
+    "Id": "30edd1b2-f1f6-4076-a2a3-96eb17fce97a",
+    "Location": "552 Hanover Plaza",
+    "Rooms": 1,
+    "Size": 70,
+    "Published": "2023-05-09",
+    "Publisher": "Katha Iskowitz"
+  },
+  {
+    "Id": "d0a20bed-cace-4cc8-9639-18b3b75696d3",
+    "Location": "6 Little Fleur Plaza",
+    "Rooms": 1,
+    "Size": 79,
+    "Published": "2023-07-12",
+    "Publisher": "Otho Richens"
+  },
+  {
+    "Id": "d12782bc-2b28-49f1-b3d0-35f67070c83a",
+    "Location": "6029 Oak Valley Parkway",
+    "Rooms": 5,
+    "Size": 67,
+    "Published": "2022-09-04",
+    "Publisher": "Marie-jeanne Geram"
+  },
+  {
+    "Id": "41f41e14-5203-494a-b481-3678a27c865d",
+    "Location": "321 Hanover Terrace",
+    "Rooms": 3,
+    "Size": 15,
+    "Published": "2023-04-30",
+    "Publisher": "Odey Pigot"
+  },
+  {
+    "Id": "5ddb21a2-e57e-4115-a2ab-9c2762422e41",
+    "Location": "2307 Sauthoff Trail",
+    "Rooms": 5,
+    "Size": 97,
+    "Published": "2023-06-20",
+    "Publisher": "Allistir Bichard"
+  },
+  {
+    "Id": "d3ba426f-3a72-4858-a9c2-a8fbf6f93188",
+    "Location": "70499 Erie Place",
+    "Rooms": 2,
+    "Size": 22,
+    "Published": "2023-03-18",
+    "Publisher": "Jared Farron"
+  },
+  {
+    "Id": "df0c8d0b-9b95-4606-a3e2-693fd37aa3ea",
+    "Location": "330 Autumn Leaf Avenue",
+    "Rooms": 1,
+    "Size": 60,
+    "Published": "2022-12-18",
+    "Publisher": "Vaughan Swinden"
+  },
+  {
+    "Id": "7758a447-842f-4e68-ba2e-c0042008a125",
+    "Location": "569 Stang Parkway",
+    "Rooms": 4,
+    "Size": 37,
+    "Published": "2023-04-16",
+    "Publisher": "Merrilee Millthorpe"
+  },
+  {
+    "Id": "6491a3d0-e465-456d-8799-e95fe3fa00d3",
+    "Location": "31 Annamark Parkway",
+    "Rooms": 5,
+    "Size": 132,
+    "Published": "2023-05-25",
+    "Publisher": "Moyna Mattinson"
+  },
+  {
+    "Id": "32b68461-3110-4512-8dcb-852e42bb3e5e",
+    "Location": "948 Bartelt Way",
+    "Rooms": 4,
+    "Size": 137,
+    "Published": "2023-05-18",
+    "Publisher": "Roselin Welbourn"
+  },
+  {
+    "Id": "e7ba9b20-e4b7-4da6-846d-ad2f40c9ee8f",
+    "Location": "53 Kim Center",
+    "Rooms": 5,
+    "Size": 38,
+    "Published": "2022-09-19",
+    "Publisher": "Nicol Godilington"
+  },
+  {
+    "Id": "7c2b682b-b1b4-4bcc-b29e-9548858eb86f",
+    "Location": "059 Ridge Oak Lane",
+    "Rooms": 1,
+    "Size": 16,
+    "Published": "2023-04-13",
+    "Publisher": "Haven Wake"
+  },
+  {
+    "Id": "4dd639de-7257-495c-aa78-a5a691709308",
+    "Location": "2 Bowman Circle",
+    "Rooms": 2,
+    "Size": 43,
+    "Published": "2023-04-19",
+    "Publisher": "Katuscha Spreag"
+  },
+  {
+    "Id": "e7c815c6-4351-4f44-96aa-7ff822f20661",
+    "Location": "76 Mccormick Road",
+    "Rooms": 6,
+    "Size": 112,
+    "Published": "2022-11-17",
+    "Publisher": "Daryl De Gregario"
+  },
+  {
+    "Id": "616d0177-47a2-4281-a98d-5aecbf89b2df",
+    "Location": "790 Dawn Center",
+    "Rooms": 5,
+    "Size": 100,
+    "Published": "2023-01-17",
+    "Publisher": "Aurea Lestor"
+  },
+  {
+    "Id": "77e720b8-1bfa-4515-a12e-c661d3e8639f",
+    "Location": "10493 Luster Center",
+    "Rooms": 1,
+    "Size": 86,
+    "Published": "2023-05-09",
+    "Publisher": "Torin Sorrell"
+  },
+  {
+    "Id": "4f16bbb8-b582-49c1-b1f3-3356b1dc1a95",
+    "Location": "50 Ridgeway Junction",
+    "Rooms": 1,
+    "Size": 24,
+    "Published": "2022-12-14",
+    "Publisher": "Sheffy Barthod"
+  },
+  {
+    "Id": "bb1432db-47c2-44d8-a5a5-c6afaf16f5b8",
+    "Location": "7 Stone Corner Terrace",
+    "Rooms": 6,
+    "Size": 63,
+    "Published": "2022-09-09",
+    "Publisher": "Mic Michin"
+  },
+  {
+    "Id": "752b7994-13dc-4015-b977-5652b313d9c5",
+    "Location": "63673 Daystar Pass",
+    "Rooms": 2,
+    "Size": 26,
+    "Published": "2022-09-18",
+    "Publisher": "Darline Firby"
+  },
+  {
+    "Id": "9c287567-2805-408f-8200-776f9949cc31",
+    "Location": "5259 Buena Vista Court",
+    "Rooms": 6,
+    "Size": 28,
+    "Published": "2022-11-21",
+    "Publisher": "Berkeley Bretton"
+  },
+  {
+    "Id": "bdf77081-729b-49ce-b2b9-3321a0c02772",
+    "Location": "7604 Graedel Place",
+    "Rooms": 2,
+    "Size": 29,
+    "Published": "2022-11-10",
+    "Publisher": "Roxana Gunny"
+  },
+  {
+    "Id": "ba90a948-5bed-4df8-888b-5534adc6acfe",
+    "Location": "6173 Cambridge Junction",
+    "Rooms": 5,
+    "Size": 36,
+    "Published": "2023-05-19",
+    "Publisher": "Enid Ebrall"
+  },
+  {
+    "Id": "75867007-abd9-4609-9337-36ffdda04dbf",
+    "Location": "317 Green Way",
+    "Rooms": 3,
+    "Size": 99,
+    "Published": "2023-06-22",
+    "Publisher": "Barnett Wittman"
+  },
+  {
+    "Id": "0b0285dd-31e8-4041-b7d8-41d414cbf3f5",
+    "Location": "8197 Carpenter Road",
+    "Rooms": 4,
+    "Size": 118,
+    "Published": "2023-04-20",
+    "Publisher": "Charley Niess"
+  },
+  {
+    "Id": "c1b427d8-ca9f-406d-b8f5-5da281eaefd6",
+    "Location": "0 Debs Alley",
+    "Rooms": 5,
+    "Size": 8,
+    "Published": "2022-09-15",
+    "Publisher": "Ronnie Casarino"
+  },
+  {
+    "Id": "85b7cbf6-0bbe-4b04-87bc-43864298cc6a",
+    "Location": "63893 Harbort Point",
+    "Rooms": 2,
+    "Size": 139,
+    "Published": "2023-02-14",
+    "Publisher": "Laraine Digance"
+  },
+  {
+    "Id": "d021348a-bbe1-4865-abbb-db7b5154378a",
+    "Location": "07 New Castle Terrace",
+    "Rooms": 5,
+    "Size": 54,
+    "Published": "2022-12-31",
+    "Publisher": "Stu Sproson"
+  },
+  {
+    "Id": "8f114028-af85-4c90-8746-82feaa111c88",
+    "Location": "8847 Harper Hill",
+    "Rooms": 2,
+    "Size": 45,
+    "Published": "2023-02-10",
+    "Publisher": "Elise Vassman"
+  },
+  {
+    "Id": "318aa2a8-bbfc-470a-ba66-d040ae0a20d8",
+    "Location": "719 Scofield Park",
+    "Rooms": 4,
+    "Size": 121,
+    "Published": "2023-04-16",
+    "Publisher": "Cully Ilive"
+  },
+  {
+    "Id": "946b75a5-42d5-454c-ba58-0a7fcdff20a8",
+    "Location": "5593 Hallows Pass",
+    "Rooms": 3,
+    "Size": 106,
+    "Published": "2023-01-26",
+    "Publisher": "Carlo Gavaghan"
+  },
+  {
+    "Id": "17042546-4b2a-48c5-8494-158f767e4cc4",
+    "Location": "00861 Clyde Gallagher Road",
+    "Rooms": 2,
+    "Size": 125,
+    "Published": "2022-11-28",
+    "Publisher": "Pen Aitkenhead"
+  },
+  {
+    "Id": "85c48b63-1ad0-4577-aa56-3fed448a6f8f",
+    "Location": "63 Rieder Lane",
+    "Rooms": 6,
+    "Size": 118,
+    "Published": "2022-12-15",
+    "Publisher": "Benita Connelly"
+  },
+  {
+    "Id": "de73e0bc-2db3-47d1-9f40-eb1062e674f5",
+    "Location": "3 Marquette Terrace",
+    "Rooms": 4,
+    "Size": 47,
+    "Published": "2022-12-03",
+    "Publisher": "Adoree Gudge"
+  },
+  {
+    "Id": "f83a31a9-afef-4208-8c11-08a74894b098",
+    "Location": "969 Gulseth Crossing",
+    "Rooms": 4,
+    "Size": 65,
+    "Published": "2022-10-19",
+    "Publisher": "Kirsti Hatliffe"
+  },
+  {
+    "Id": "4318e26c-4488-4977-bbd6-302af23f1af1",
+    "Location": "53 Chive Plaza",
+    "Rooms": 1,
+    "Size": 121,
+    "Published": "2022-07-29",
+    "Publisher": "Fina O'Tierney"
+  },
+  {
+    "Id": "bfd8ff2b-09e8-4a1d-b576-e0e40cde7dcc",
+    "Location": "1557 Mifflin Drive",
+    "Rooms": 1,
+    "Size": 144,
+    "Published": "2022-12-03",
+    "Publisher": "Tanitansy Spurgin"
+  },
+  {
+    "Id": "1ee46f85-6a58-46ae-bfa8-b7960aeb497b",
+    "Location": "34 Garrison Center",
+    "Rooms": 5,
+    "Size": 90,
+    "Published": "2023-04-02",
+    "Publisher": "Muhammad Sprigg"
+  },
+  {
+    "Id": "eec5e0b6-fcd3-42e0-82b2-d7be52f9eb88",
+    "Location": "16450 Springview Terrace",
+    "Rooms": 5,
+    "Size": 30,
+    "Published": "2022-08-29",
+    "Publisher": "Yuma Battie"
+  },
+  {
+    "Id": "52748edd-c964-41ec-82b3-33e07b7fdd01",
+    "Location": "8668 Bluestem Lane",
+    "Rooms": 1,
+    "Size": 104,
+    "Published": "2022-11-03",
+    "Publisher": "Chrystal Banke"
+  },
+  {
+    "Id": "82811e45-ad06-4b75-930d-b5f8df9b2492",
+    "Location": "0 Sycamore Way",
+    "Rooms": 1,
+    "Size": 58,
+    "Published": "2022-08-13",
+    "Publisher": "Jarrad Lumley"
+  },
+  {
+    "Id": "3d7f52e9-300e-419c-99a6-692318739d8f",
+    "Location": "704 6th Drive",
+    "Rooms": 5,
+    "Size": 50,
+    "Published": "2023-07-06",
+    "Publisher": "Anjela Piet"
+  },
+  {
+    "Id": "78c2dcf5-e82b-45ba-a2a1-60272456c991",
+    "Location": "1835 Montana Circle",
+    "Rooms": 4,
+    "Size": 140,
+    "Published": "2023-06-20",
+    "Publisher": "Theresa Momery"
+  },
+  {
+    "Id": "218c9976-938b-48b5-8699-57124ed89c38",
+    "Location": "4459 Kropf Center",
+    "Rooms": 6,
+    "Size": 19,
+    "Published": "2022-07-29",
+    "Publisher": "Jareb Whiteland"
+  },
+  {
+    "Id": "c85520e5-6bc7-41a2-901c-ab6ad7d3a08e",
+    "Location": "98 Chinook Street",
+    "Rooms": 4,
+    "Size": 88,
+    "Published": "2022-12-26",
+    "Publisher": "Riccardo Silk"
+  },
+  {
+    "Id": "21d45f09-d9a0-4783-806d-5543a8d4eedd",
+    "Location": "22 Kinsman Hill",
+    "Rooms": 3,
+    "Size": 41,
+    "Published": "2023-06-15",
+    "Publisher": "Karoline MacKilroe"
+  },
+  {
+    "Id": "4b9c2a69-032c-409b-93de-da34a68eb5a1",
+    "Location": "9 Hermina Plaza",
+    "Rooms": 1,
+    "Size": 67,
+    "Published": "2022-08-14",
+    "Publisher": "Raine Wyer"
+  },
+  {
+    "Id": "5c7cb89a-a4ad-49d9-9178-011474b71233",
+    "Location": "64252 Jenna Park",
+    "Rooms": 4,
+    "Size": 9,
+    "Published": "2022-08-07",
+    "Publisher": "Ruthanne Wernham"
+  },
+  {
+    "Id": "c4d50a78-52ff-48d5-9509-1648cedbc84a",
+    "Location": "7791 Luster Point",
+    "Rooms": 4,
+    "Size": 34,
+    "Published": "2023-03-02",
+    "Publisher": "Madge Moorcroft"
+  },
+  {
+    "Id": "3673bf89-c61a-430a-b2d6-b9257028ab05",
+    "Location": "9 Crownhardt Pass",
+    "Rooms": 1,
+    "Size": 38,
+    "Published": "2022-10-04",
+    "Publisher": "Torin Hyatt"
+  },
+  {
+    "Id": "2a6207b4-9254-4455-9d0c-15730055d17f",
+    "Location": "7779 Sugar Street",
+    "Rooms": 5,
+    "Size": 125,
+    "Published": "2022-08-21",
+    "Publisher": "Graham Sueter"
+  },
+  {
+    "Id": "82669338-0b06-4a23-ac80-27086b635e2f",
+    "Location": "68 Gateway Drive",
+    "Rooms": 3,
+    "Size": 82,
+    "Published": "2022-10-02",
+    "Publisher": "Elaine Hayhow"
+  },
+  {
+    "Id": "0cceb9bc-bba3-425f-8abf-9761606bdef7",
+    "Location": "2 Porter Place",
+    "Rooms": 4,
+    "Size": 133,
+    "Published": "2023-06-16",
+    "Publisher": "Kristoffer Blazejewski"
+  },
+  {
+    "Id": "05ccb236-3604-4c7e-81b2-1378ab3760de",
+    "Location": "1623 New Castle Hill",
+    "Rooms": 3,
+    "Size": 56,
+    "Published": "2022-12-06",
+    "Publisher": "Winona Lynock"
+  },
+  {
+    "Id": "3debdbcf-74b0-49ff-88d1-76d2287724bb",
+    "Location": "228 7th Avenue",
+    "Rooms": 5,
+    "Size": 117,
+    "Published": "2023-07-01",
+    "Publisher": "Lonni Sheppey"
+  },
+  {
+    "Id": "20c5a5d6-8253-4729-a3f4-dc584f82e51b",
+    "Location": "24988 Jenifer Point",
+    "Rooms": 5,
+    "Size": 99,
+    "Published": "2022-09-05",
+    "Publisher": "Ofilia Dudley"
+  },
+  {
+    "Id": "c596ba81-eeff-4511-b8ce-2128ebf5accc",
+    "Location": "7 Ridgeway Lane",
+    "Rooms": 6,
+    "Size": 79,
+    "Published": "2022-08-09",
+    "Publisher": "Francklyn MacSporran"
+  },
+  {
+    "Id": "7db6e0eb-14d2-4a63-ba5d-47a87ec04a68",
+    "Location": "03596 Ridgeview Drive",
+    "Rooms": 1,
+    "Size": 37,
+    "Published": "2022-12-23",
+    "Publisher": "Kile Gostall"
+  },
+  {
+    "Id": "f72521ac-e80d-4de7-89a8-003280e9619e",
+    "Location": "223 Iowa Trail",
+    "Rooms": 4,
+    "Size": 128,
+    "Published": "2023-04-15",
+    "Publisher": "Findley Repp"
+  },
+  {
+    "Id": "16685289-fbe4-4726-98c0-be470df2bf74",
+    "Location": "533 Duke Way",
+    "Rooms": 2,
+    "Size": 72,
+    "Published": "2023-05-12",
+    "Publisher": "Paulo O'Growgane"
+  },
+  {
+    "Id": "0fcd8163-4d48-4b64-8ce2-1f42b42d0162",
+    "Location": "9106 Springs Point",
+    "Rooms": 3,
+    "Size": 11,
+    "Published": "2023-03-23",
+    "Publisher": "Lew Goodread"
+  },
+  {
+    "Id": "c3ae42d9-8913-4a4e-9c01-95f38528006a",
+    "Location": "7 Burrows Parkway",
+    "Rooms": 6,
+    "Size": 60,
+    "Published": "2023-04-02",
+    "Publisher": "Jerrie Meadley"
+  },
+  {
+    "Id": "3cca8a96-6539-49e7-8281-ec7df4bed549",
+    "Location": "2761 Loomis Hill",
+    "Rooms": 1,
+    "Size": 27,
+    "Published": "2023-01-07",
+    "Publisher": "Kayle Ranken"
+  },
+  {
+    "Id": "d97122d4-331c-4b57-a92e-517c87db44f0",
+    "Location": "694 Clove Plaza",
+    "Rooms": 2,
+    "Size": 90,
+    "Published": "2023-01-18",
+    "Publisher": "Foss Altimas"
+  },
+  {
+    "Id": "87705d38-b309-43ad-bc43-71cdb4335050",
+    "Location": "0 Kennedy Plaza",
+    "Rooms": 1,
+    "Size": 30,
+    "Published": "2023-02-03",
+    "Publisher": "Minnnie Trayes"
+  },
+  {
+    "Id": "01aedda3-f4ee-4aaf-8620-cce5c02ef3f7",
+    "Location": "2667 Buena Vista Drive",
+    "Rooms": 4,
+    "Size": 90,
+    "Published": "2023-02-03",
+    "Publisher": "Charyl Gress"
+  },
+  {
+    "Id": "cff988f7-f20c-4b8f-a717-aea55ad66ccf",
+    "Location": "44 Anniversary Court",
+    "Rooms": 4,
+    "Size": 128,
+    "Published": "2022-10-02",
+    "Publisher": "Darnell Piddington"
+  },
+  {
+    "Id": "53676a9b-ac25-4206-9b70-652bf0aedc2f",
+    "Location": "4831 Delaware Parkway",
+    "Rooms": 6,
+    "Size": 52,
+    "Published": "2023-06-20",
+    "Publisher": "Dwain Lamb"
+  },
+  {
+    "Id": "3a2298a8-cae8-46f8-b67c-083f664e2ee0",
+    "Location": "217 Carioca Avenue",
+    "Rooms": 1,
+    "Size": 13,
+    "Published": "2023-02-09",
+    "Publisher": "Royce Ygou"
+  },
+  {
+    "Id": "be45f4d2-a564-4de7-becd-0f5bababa195",
+    "Location": "83026 Vahlen Drive",
+    "Rooms": 3,
+    "Size": 135,
+    "Published": "2022-07-28",
+    "Publisher": "Melinda Demkowicz"
+  },
+  {
+    "Id": "aa3b92c1-6a8a-4db4-b971-a636e8d43622",
+    "Location": "9 Moland Junction",
+    "Rooms": 5,
+    "Size": 110,
+    "Published": "2023-03-16",
+    "Publisher": "Lemar Drache"
+  },
+  {
+    "Id": "33646c8c-a3f8-40cb-94e3-b11e5bda45eb",
+    "Location": "88926 Stone Corner Lane",
+    "Rooms": 2,
+    "Size": 111,
+    "Published": "2023-07-13",
+    "Publisher": "Melisande Tarbert"
+  },
+  {
+    "Id": "927ade5e-59c0-418d-976d-dfed8e60dd13",
+    "Location": "563 Johnson Point",
+    "Rooms": 6,
+    "Size": 76,
+    "Published": "2023-01-30",
+    "Publisher": "Fee Simkovich"
+  },
+  {
+    "Id": "a0849136-51d5-4cf2-a312-ef99f0eaa55c",
+    "Location": "3294 Luster Lane",
+    "Rooms": 6,
+    "Size": 52,
+    "Published": "2023-01-14",
+    "Publisher": "Grady Rawlyns"
+  },
+  {
+    "Id": "366a3530-dee1-42dd-a0d6-4e622d9e0542",
+    "Location": "47 Shopko Avenue",
+    "Rooms": 1,
+    "Size": 120,
+    "Published": "2023-07-04",
+    "Publisher": "Larisa Ginnaly"
+  },
+  {
+    "Id": "9d3ec45a-49fe-4ab7-a594-4f5733eea3f9",
+    "Location": "5 Redwing Drive",
+    "Rooms": 5,
+    "Size": 100,
+    "Published": "2022-10-07",
+    "Publisher": "Rikki Manion"
+  },
+  {
+    "Id": "fed06845-7d90-4729-a205-5bd7e3a9cebd",
+    "Location": "65575 Melby Trail",
+    "Rooms": 5,
+    "Size": 76,
+    "Published": "2023-01-01",
+    "Publisher": "Noland Steventon"
+  },
+  {
+    "Id": "2486dd16-b007-4cb5-8820-5ef43267f83c",
+    "Location": "77657 South Place",
+    "Rooms": 1,
+    "Size": 5,
+    "Published": "2022-12-08",
+    "Publisher": "Neddy Cossam"
+  },
+  {
+    "Id": "e597c884-cbd9-4508-a49b-573bb263f484",
+    "Location": "00 Elgar Point",
+    "Rooms": 4,
+    "Size": 86,
+    "Published": "2023-02-17",
+    "Publisher": "Tobiah Holbury"
+  },
+  {
+    "Id": "0c598cfc-cfe9-458e-a729-2c9c6d011420",
+    "Location": "78 Helena Way",
+    "Rooms": 3,
+    "Size": 112,
+    "Published": "2022-08-20",
+    "Publisher": "Evangelia Peet"
+  },
+  {
+    "Id": "20cb6db2-e023-4f34-8bd0-3f204213c92c",
+    "Location": "4 Brickson Park Circle",
+    "Rooms": 4,
+    "Size": 93,
+    "Published": "2023-04-17",
+    "Publisher": "Barby Wandtke"
+  },
+  {
+    "Id": "cbad7071-a06b-45a7-be13-e34aa76e7d7b",
+    "Location": "7259 Clove Terrace",
+    "Rooms": 1,
+    "Size": 33,
+    "Published": "2023-04-05",
+    "Publisher": "Ruddie Staker"
+  },
+  {
+    "Id": "b1d702fe-9e7b-4525-a329-c88a916e798b",
+    "Location": "96 Ohio Alley",
+    "Rooms": 5,
+    "Size": 23,
+    "Published": "2023-06-29",
+    "Publisher": "Margo Glavis"
+  },
+  {
+    "Id": "ef80df02-aeab-4097-a9f3-311e869dca4e",
+    "Location": "79367 Homewood Parkway",
+    "Rooms": 2,
+    "Size": 72,
+    "Published": "2023-07-15",
+    "Publisher": "Lydia Yearron"
+  },
+  {
+    "Id": "5599bfe6-eae4-4a51-bb71-3809cfcce875",
+    "Location": "00 Monterey Center",
+    "Rooms": 5,
+    "Size": 71,
+    "Published": "2023-05-11",
+    "Publisher": "Casey McQuorkell"
+  },
+  {
+    "Id": "6448f289-a025-4c02-8792-04bfbfdd5820",
+    "Location": "339 Blaine Street",
+    "Rooms": 3,
+    "Size": 128,
+    "Published": "2022-09-12",
+    "Publisher": "Phyllys Shinner"
+  },
+  {
+    "Id": "16b5c708-edca-42ba-9338-ae0c834c8734",
+    "Location": "51 Dunning Lane",
+    "Rooms": 4,
+    "Size": 110,
+    "Published": "2023-02-23",
+    "Publisher": "Angela Gerling"
+  },
+  {
+    "Id": "34de230e-cec6-4f74-ad95-670fb7ead8ce",
+    "Location": "78328 Maple Wood Crossing",
+    "Rooms": 3,
+    "Size": 106,
+    "Published": "2022-08-09",
+    "Publisher": "Zena Kenlin"
+  },
+  {
+    "Id": "26af6c9a-10e1-4d4d-aa4e-bad52cfc1899",
+    "Location": "92741 Wayridge Pass",
+    "Rooms": 4,
+    "Size": 75,
+    "Published": "2023-01-29",
+    "Publisher": "Milty Cordner"
+  },
+  {
+    "Id": "0fbadfdf-a536-4759-9f23-eaef45e12b2c",
+    "Location": "29 Green Ridge Street",
+    "Rooms": 6,
+    "Size": 35,
+    "Published": "2023-07-08",
+    "Publisher": "Evanne Rude"
+  },
+  {
+    "Id": "998f9ee8-0353-4d92-b5c5-d93aecc9a5c0",
+    "Location": "3129 West Terrace",
+    "Rooms": 3,
+    "Size": 45,
+    "Published": "2023-06-19",
+    "Publisher": "Pedro Roly"
+  },
+  {
+    "Id": "5367b6f5-aa4d-4df4-a3cd-5f7067e7a64b",
+    "Location": "3020 Fuller Alley",
+    "Rooms": 1,
+    "Size": 39,
+    "Published": "2022-10-18",
+    "Publisher": "Eliot De Micoli"
+  },
+  {
+    "Id": "5140ee82-c057-4561-9ebf-d45e5a6ca95f",
+    "Location": "5 Lakewood Road",
+    "Rooms": 1,
+    "Size": 101,
+    "Published": "2023-07-05",
+    "Publisher": "Quintina Nuccitelli"
+  },
+  {
+    "Id": "5d33f9a1-4aaa-4713-bb06-b2a4fda173d4",
+    "Location": "2991 Monica Park",
+    "Rooms": 5,
+    "Size": 140,
+    "Published": "2023-05-12",
+    "Publisher": "Jamey Ilott"
+  },
+  {
+    "Id": "761ab46f-911a-4a73-98a9-ee79caae83c8",
+    "Location": "294 South Drive",
+    "Rooms": 2,
+    "Size": 36,
+    "Published": "2023-02-24",
+    "Publisher": "Chevy Roddie"
+  },
+  {
+    "Id": "57e9188e-fa65-467f-8f1b-eebfaa30645e",
+    "Location": "61 Graedel Lane",
+    "Rooms": 3,
+    "Size": 83,
+    "Published": "2023-03-27",
+    "Publisher": "Timi McGavin"
+  },
+  {
+    "Id": "01cf1efa-dc06-4b08-9413-36eaa26cf6d3",
+    "Location": "384 Ridgeway Plaza",
+    "Rooms": 6,
+    "Size": 138,
+    "Published": "2022-12-09",
+    "Publisher": "Mab Chancelier"
+  },
+  {
+    "Id": "120d53bf-6d3f-4583-ba7f-69da05c1ba1f",
+    "Location": "14 Milwaukee Place",
+    "Rooms": 4,
+    "Size": 96,
+    "Published": "2022-10-05",
+    "Publisher": "Yevette Prewett"
+  },
+  {
+    "Id": "4ef1d6f4-e25f-49da-96ec-6436ef3742a7",
+    "Location": "88357 1st Avenue",
+    "Rooms": 1,
+    "Size": 39,
+    "Published": "2022-09-08",
+    "Publisher": "Clair Dennert"
+  },
+  {
+    "Id": "8cc2b3c7-fad2-46f2-9443-490519eb6322",
+    "Location": "90 Bultman Crossing",
+    "Rooms": 6,
+    "Size": 71,
+    "Published": "2023-07-11",
+    "Publisher": "Collin Wintringham"
+  },
+  {
+    "Id": "87426e9e-20c1-471a-a9ae-b0918fadcad5",
+    "Location": "1 Lakewood Terrace",
+    "Rooms": 2,
+    "Size": 40,
+    "Published": "2022-09-18",
+    "Publisher": "Nan Hector"
+  },
+  {
+    "Id": "0742bf79-e1b2-4b6b-923c-5ba3408ef66d",
+    "Location": "94813 Dakota Hill",
+    "Rooms": 1,
+    "Size": 94,
+    "Published": "2022-11-20",
+    "Publisher": "Danni Ryle"
+  },
+  {
+    "Id": "b03944f8-42da-4374-a77f-31e87542fcfd",
+    "Location": "29 Becker Crossing",
+    "Rooms": 5,
+    "Size": 37,
+    "Published": "2022-12-31",
+    "Publisher": "Elset Swatheridge"
+  },
+  {
+    "Id": "54626e7b-b6b3-41b5-acbe-34f8e3d46757",
+    "Location": "6518 Manley Park",
+    "Rooms": 2,
+    "Size": 94,
+    "Published": "2022-11-02",
+    "Publisher": "Rowan Skitch"
+  },
+  {
+    "Id": "58f3ab9c-abc0-415d-b426-fbbf3e4a2642",
+    "Location": "839 Summerview Road",
+    "Rooms": 6,
+    "Size": 42,
+    "Published": "2022-12-01",
+    "Publisher": "Viva Vousden"
+  },
+  {
+    "Id": "c6363847-5142-4eab-9292-80315704789f",
+    "Location": "3040 Fieldstone Circle",
+    "Rooms": 6,
+    "Size": 5,
+    "Published": "2023-06-25",
+    "Publisher": "Velvet Dollen"
+  }
+]
