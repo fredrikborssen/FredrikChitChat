@@ -47,7 +47,7 @@ namespace ChittyChatty.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
         public async Task<IActionResult> PostNewBroker(BrokerDto broker)
         {
-            var newBroker = new Broker(broker.FirstName,broker.Surname,broker.BrokerCompany,broker.LastUpdate);
+            var newBroker = new Broker(broker.FirstName,broker.Surname,broker.BrokerCompany,DateTime.Now);
             await _context.Brokers.AddAsync(newBroker);
 
             var savedChanges = await _context.SaveChangesAsync();

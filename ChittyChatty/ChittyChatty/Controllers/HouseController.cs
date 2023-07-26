@@ -93,9 +93,15 @@ namespace ChittyChatty.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> PostNewHouse(HouseDto house)
         {
-            var newHouse = new House(house.BrokerId,house.Location, house.Rooms, house.Size, house.Published, house.BrokerCompany);
+            var broker = await _dbContext.Brokers.FindAsync(house.BrokerId);
+
+            if (broker == null)
+                return BadRequest("The Broker does not exist.");
+
+            var newHouse = new House(house.BrokerId,house.Location, house.Rooms, house.Size, DateTime.Now, house.BrokerCompany);
             var newBrokerListing = new BrokerListingHouse(newHouse.BrokerId, newHouse.BuildingId);
             await _dbContext.Houses.AddAsync(newHouse);
+            await _dbContext.BrokerListingHouses.AddAsync(newBrokerListing);
 
             var savedChanges = await _dbContext.SaveChangesAsync();
             if(savedChanges > 0)

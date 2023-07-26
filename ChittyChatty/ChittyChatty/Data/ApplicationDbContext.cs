@@ -17,10 +17,10 @@ namespace ChittyChatty.Data
             modelBuilder.Entity<House>().HasKey(p => p.BuildingId);
             modelBuilder.Entity<Broker>().HasKey(p => p.BrokerId);
             modelBuilder.Entity<BrokerListingApartment>()
-                .HasKey(bl => new { bl.BrokerId, bl.BuildingId });
+                .HasKey(bl => bl.BuildingId );
 
             modelBuilder.Entity<BrokerListingHouse>()
-                .HasKey(bl => new { bl.BrokerId, bl.BuildingId });
+                .HasKey(bl =>  bl.BuildingId );
 
             modelBuilder.Entity<BrokerListingApartment>()
                 .HasOne<Broker>(bl => bl.Broker)
