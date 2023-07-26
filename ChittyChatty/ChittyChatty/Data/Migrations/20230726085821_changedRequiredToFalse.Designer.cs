@@ -4,6 +4,7 @@ using ChittyChatty.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ChittyChatty.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230726085821_changedRequiredToFalse")]
+    partial class changedRequiredToFalse
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -81,36 +84,20 @@ namespace ChittyChatty.Data.Migrations
                     b.ToTable("Brokers");
                 });
 
-            modelBuilder.Entity("ChittyChatty.Domain.Entites.BrokerListingApartment", b =>
+            modelBuilder.Entity("ChittyChatty.Domain.Entites.BrokerListing", b =>
                 {
                     b.Property<Guid>("BrokerId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("BuildingId")
+                    b.Property<Guid>("BuildId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.HasKey("BrokerId", "BuildingId");
+                    b.HasKey("BrokerId", "BuildId");
 
-                    b.HasIndex("BuildingId")
+                    b.HasIndex("BuildId")
                         .IsUnique();
 
-                    b.ToTable("BrokerListingApartments");
-                });
-
-            modelBuilder.Entity("ChittyChatty.Domain.Entites.BrokerListingHouse", b =>
-                {
-                    b.Property<Guid>("BrokerId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("BuildingId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("BrokerId", "BuildingId");
-
-                    b.HasIndex("BuildingId")
-                        .IsUnique();
-
-                    b.ToTable("BrokerListingHouses");
+                    b.ToTable("BrokerListings");
                 });
 
             modelBuilder.Entity("ChittyChatty.Domain.Entites.House", b =>
@@ -351,7 +338,7 @@ namespace ChittyChatty.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("ChittyChatty.Domain.Entites.BrokerListingApartment", b =>
+            modelBuilder.Entity("ChittyChatty.Domain.Entites.BrokerListing", b =>
                 {
                     b.HasOne("ChittyChatty.Domain.Entites.Broker", "Broker")
                         .WithMany()
@@ -361,28 +348,15 @@ namespace ChittyChatty.Data.Migrations
 
                     b.HasOne("ChittyChatty.Domain.Entites.Apartment", "Apartment")
                         .WithOne()
-                        .HasForeignKey("ChittyChatty.Domain.Entites.BrokerListingApartment", "BuildingId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Apartment");
-
-                    b.Navigation("Broker");
-                });
-
-            modelBuilder.Entity("ChittyChatty.Domain.Entites.BrokerListingHouse", b =>
-                {
-                    b.HasOne("ChittyChatty.Domain.Entites.Broker", "Broker")
-                        .WithMany()
-                        .HasForeignKey("BrokerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ChittyChatty.Domain.Entites.BrokerListing", "BuildId")
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("ChittyChatty.Domain.Entites.House", "House")
                         .WithOne()
-                        .HasForeignKey("ChittyChatty.Domain.Entites.BrokerListingHouse", "BuildingId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ChittyChatty.Domain.Entites.BrokerListing", "BuildId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.Navigation("Apartment");
 
                     b.Navigation("Broker");
 

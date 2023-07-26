@@ -32,5 +32,10 @@ namespace ChittyChatty.Domain.Entites
             Published = published;
             BrokerCompany = brokerCompany;
         }
+
+        public Apartment()
+        {
+            
+        }
     }
 }

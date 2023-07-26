@@ -31,7 +31,7 @@ namespace ChittyChatty.Controllers
                 Rooms = apartment.Rooms,
                 Size = apartment.Size,
                 Published = apartment.Published,
-                Publisher = apartment.BrokerCompany
+                BrokerCompany = apartment.BrokerCompany
             }).ToListAsync();      
 
             if (!searchResult.Any())
@@ -82,7 +82,7 @@ namespace ChittyChatty.Controllers
                                     Rooms = apartment.Rooms,
                                     Size = apartment.Size,
                                     Published = apartment.Published,
-                                    Publisher = apartment.BrokerCompany
+                                    BrokerCompany = apartment.BrokerCompany
                                 }).ToArrayAsync();
 
             return apartmentList;
@@ -90,12 +90,23 @@ namespace ChittyChatty.Controllers
 
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> PostNewApartment(ApartmentDto apartment)
         {
-            var newApartment = new Apartment(apartment.BrokerId,apartment.Location,apartment.Rooms,apartment.Size,apartment.Published,apartment.Publisher);
+            var newApartment = new Apartment(apartment.BrokerId,apartment.Location,apartment.Rooms,apartment.Size,apartment.Published,apartment.BrokerCompany);
+            var newBrokerListing = new BrokerListingApartment(newApartment.BrokerId, newApartment.BuildingId);
             await _dbContext.Apartments.AddAsync(newApartment);
-            _dbContext.SaveChanges();
-            return CreatedAtAction(nameof(GetApartmentById), new { id = newApartment.BuildingId }, newApartment);
+            await _dbContext.BrokerListingApartments.AddAsync(newBrokerListing);
+
+            int savedChanges = await _dbContext.SaveChangesAsync();
+            if (savedChanges > 0)
+            {
+                return CreatedAtAction(nameof(GetApartmentById), new { id = newApartment.BuildingId }, newApartment);
+            }
+            else
+            {
+                return BadRequest("Failed to save the new apartment.");
+            }      
         }
     }
 }

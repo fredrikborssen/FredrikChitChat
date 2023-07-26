@@ -31,7 +31,7 @@ namespace ChittyChatty.Controllers
                 Rooms = house.Rooms,
                 Size = house.Size,
                 Published = house.Published,
-                Publisher = house.BrokerCompany
+                BrokerCompany = house.BrokerCompany
             }).ToListAsync();
 
             if (!searchResult.Any())
@@ -82,7 +82,7 @@ namespace ChittyChatty.Controllers
                                     Rooms = house.Rooms,
                                     Size = house.Size,
                                     Published = house.Published,
-                                    Publisher = house.BrokerCompany
+                                    BrokerCompany = house.BrokerCompany
                                 }).ToArrayAsync();
 
             return houseList;
@@ -90,12 +90,23 @@ namespace ChittyChatty.Controllers
 
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> PostNewHouse(HouseDto house)
         {
-            var newHouse = new House(house.BrokerId,house.Location, house.Rooms, house.Size, house.Published, house.Publisher);
+            var newHouse = new House(house.BrokerId,house.Location, house.Rooms, house.Size, house.Published, house.BrokerCompany);
+            var newBrokerListing = new BrokerListingHouse(newHouse.BrokerId, newHouse.BuildingId);
             await _dbContext.Houses.AddAsync(newHouse);
-            _dbContext.SaveChanges();
-            return CreatedAtAction(nameof(GetHouseById), new { id = newHouse.BuildingId }, newHouse);
+
+            var savedChanges = await _dbContext.SaveChangesAsync();
+            if(savedChanges > 0)
+            {
+                return CreatedAtAction(nameof(GetHouseById), new { id = newHouse.BuildingId }, newHouse);
+            }
+            else
+            {
+                return BadRequest("Failed to save the new House");
+            }
+            
         }
     }
 }

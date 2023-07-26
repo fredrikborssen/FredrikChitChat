@@ -7,6 +7,6 @@
         public int Rooms { get; set; }
         public int Size { get; set; }
         public DateTime? Published { get; set; }
-        public string? Publisher { get; set; }
+        public string? BrokerCompany { get; set; }
     }
 }
