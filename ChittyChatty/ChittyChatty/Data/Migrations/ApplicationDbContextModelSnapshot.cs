@@ -27,14 +27,15 @@ namespace ChittyChatty.Data.Migrations
                     b.Property<Guid>("BuildingId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier")
-                        .HasAnnotation("Relational:JsonPropertyName", "id");
+                        .HasAnnotation("Relational:JsonPropertyName", "BuildingId");
 
                     b.Property<string>("BrokerCompany")
                         .HasColumnType("nvarchar(max)")
-                        .HasAnnotation("Relational:JsonPropertyName", "Publisher");
+                        .HasAnnotation("Relational:JsonPropertyName", "BrokerCompany");
 
-                    b.Property<int>("BrokerId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("BrokerId")
+                        .HasColumnType("uniqueidentifier")
+                        .HasAnnotation("Relational:JsonPropertyName", "BrokerId");
 
                     b.Property<string>("Location")
                         .HasColumnType("nvarchar(max)")
@@ -93,7 +94,7 @@ namespace ChittyChatty.Data.Migrations
                     b.HasIndex("BuildId")
                         .IsUnique();
 
-                    b.ToTable("brokerListings");
+                    b.ToTable("BrokerListings");
                 });
 
             modelBuilder.Entity("ChittyChatty.Domain.Entites.House", b =>
@@ -101,14 +102,15 @@ namespace ChittyChatty.Data.Migrations
                     b.Property<Guid>("BuildingId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier")
-                        .HasAnnotation("Relational:JsonPropertyName", "id");
+                        .HasAnnotation("Relational:JsonPropertyName", "BuildingId");
 
                     b.Property<string>("BrokerCompany")
                         .HasColumnType("nvarchar(max)")
-                        .HasAnnotation("Relational:JsonPropertyName", "Publisher");
+                        .HasAnnotation("Relational:JsonPropertyName", "BrokerCompany");
 
-                    b.Property<int>("BrokerId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("BrokerId")
+                        .HasColumnType("uniqueidentifier")
+                        .HasAnnotation("Relational:JsonPropertyName", "BrokerId");
 
                     b.Property<string>("Location")
                         .HasColumnType("nvarchar(max)")

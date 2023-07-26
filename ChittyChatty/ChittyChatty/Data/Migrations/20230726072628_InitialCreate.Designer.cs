@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ChittyChatty.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230725114755_addedBrokersInTables")]
-    partial class addedBrokersInTables
+    [Migration("20230726072628_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,17 +27,18 @@ namespace ChittyChatty.Data.Migrations
 
             modelBuilder.Entity("ChittyChatty.Domain.Entites.Apartment", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<Guid>("BuildingId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier")
-                        .HasAnnotation("Relational:JsonPropertyName", "id");
+                        .HasAnnotation("Relational:JsonPropertyName", "BuildingId");
 
                     b.Property<string>("BrokerCompany")
                         .HasColumnType("nvarchar(max)")
-                        .HasAnnotation("Relational:JsonPropertyName", "Publisher");
+                        .HasAnnotation("Relational:JsonPropertyName", "BrokerCompany");
 
-                    b.Property<int>("BrokerId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("BrokerId")
+                        .HasColumnType("uniqueidentifier")
+                        .HasAnnotation("Relational:JsonPropertyName", "BrokerId");
 
                     b.Property<string>("Location")
                         .HasColumnType("nvarchar(max)")
@@ -55,24 +56,64 @@ namespace ChittyChatty.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("Relational:JsonPropertyName", "Size");
 
-                    b.HasKey("Id");
+                    b.HasKey("BuildingId");
 
                     b.ToTable("Apartments");
                 });
 
+            modelBuilder.Entity("ChittyChatty.Domain.Entites.Broker", b =>
+                {
+                    b.Property<Guid>("BrokerId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("BrokerCompany")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("LastUpdate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Surname")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("BrokerId");
+
+                    b.ToTable("Brokers");
+                });
+
+            modelBuilder.Entity("ChittyChatty.Domain.Entites.BrokerListing", b =>
+                {
+                    b.Property<Guid>("BrokerId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("BuildId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("BrokerId", "BuildId");
+
+                    b.HasIndex("BuildId")
+                        .IsUnique();
+
+                    b.ToTable("BrokerListings");
+                });
+
             modelBuilder.Entity("ChittyChatty.Domain.Entites.House", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<Guid>("BuildingId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier")
-                        .HasAnnotation("Relational:JsonPropertyName", "id");
+                        .HasAnnotation("Relational:JsonPropertyName", "BuildingId");
 
                     b.Property<string>("BrokerCompany")
                         .HasColumnType("nvarchar(max)")
-                        .HasAnnotation("Relational:JsonPropertyName", "Publisher");
+                        .HasAnnotation("Relational:JsonPropertyName", "BrokerCompany");
 
-                    b.Property<int>("BrokerId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("BrokerId")
+                        .HasColumnType("uniqueidentifier")
+                        .HasAnnotation("Relational:JsonPropertyName", "BrokerId");
 
                     b.Property<string>("Location")
                         .HasColumnType("nvarchar(max)")
@@ -90,7 +131,7 @@ namespace ChittyChatty.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("Relational:JsonPropertyName", "Size");
 
-                    b.HasKey("Id");
+                    b.HasKey("BuildingId");
 
                     b.ToTable("Houses");
                 });
@@ -295,6 +336,33 @@ namespace ChittyChatty.Data.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("ChittyChatty.Domain.Entites.BrokerListing", b =>
+                {
+                    b.HasOne("ChittyChatty.Domain.Entites.Broker", "Broker")
+                        .WithMany()
+                        .HasForeignKey("BrokerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ChittyChatty.Domain.Entites.Apartment", "Apartment")
+                        .WithOne()
+                        .HasForeignKey("ChittyChatty.Domain.Entites.BrokerListing", "BuildId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ChittyChatty.Domain.Entites.House", "House")
+                        .WithOne()
+                        .HasForeignKey("ChittyChatty.Domain.Entites.BrokerListing", "BuildId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Apartment");
+
+                    b.Navigation("Broker");
+
+                    b.Navigation("House");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

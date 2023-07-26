@@ -33,7 +33,7 @@ if (!entites.Apartments.Any())
 {
     await MockData.MockDatabaseDataApartments();
 }
-else if(!entites.Houses.Any())
+if(!entites.Houses.Any())
 {
     await MockData.MockDatabaseDataHouses();
 }

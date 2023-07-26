@@ -39,7 +39,7 @@ namespace ChittyChatty.Data
 
             base.OnModelCreating(modelBuilder);
         }
-        public DbSet<BrokerListing> brokerListings { get; set; }
+        public DbSet<BrokerListing> BrokerListings { get; set; }
         public DbSet<Broker> Brokers { get; set; }
         public DbSet<Apartment> Apartments { get; set; }
         public DbSet<House> Houses { get; set; }

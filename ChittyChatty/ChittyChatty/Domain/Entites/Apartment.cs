@@ -6,10 +6,10 @@ namespace ChittyChatty.Domain.Entites
 {
     public class Apartment
     {
-        [Key]
-        [JsonPropertyName("id")]
+        [JsonPropertyName("BuildingId")]
         public Guid BuildingId { get; set; }
-        public int BrokerId { get; set; }
+        [JsonPropertyName("BrokerId")]
+        public Guid BrokerId { get; set; }
         [JsonPropertyName("Location")]
         public string? Location { get; set; }
         [JsonPropertyName("Rooms")]
@@ -18,11 +18,11 @@ namespace ChittyChatty.Domain.Entites
         public int Size { get; set; }
         [JsonPropertyName("Published")]
         public DateTime? Published { get; set; }
-        [JsonPropertyName("Publisher")]
+        [JsonPropertyName("BrokerCompany")]
         public string? BrokerCompany { get; set; }
 
 
-        public Apartment(int brokerId,string location, int rooms, int size, DateTime? published, string brokerCompany)
+        public Apartment(Guid brokerId,string location, int rooms, int size, DateTime? published, string brokerCompany)
         {
             BuildingId = Guid.NewGuid();
             BrokerId = brokerId;
