@@ -19,13 +19,13 @@ namespace ChittyChatty.Controllers
         }
 
         [HttpGet]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(typeof(IEnumerable<HouseRm>), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(IEnumerable<HouseRm>),StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetHouses()
         {
             var searchResult = await _dbContext.Houses.Select(house => new HouseRm
             {
-                Id = house.BuildingId,
+                BuildingId = house.BuildingId,
                 BrokerId = house.BrokerId,
                 Location = house.Location,
                 Rooms = house.Rooms,
@@ -47,10 +47,21 @@ namespace ChittyChatty.Controllers
         {
             var searchResult = await _dbContext.Houses
                 .Where(house => house.BuildingId == id)
+                .Select(house => new HouseRm
+                {
+                    BuildingId = house.BuildingId,
+                    BrokerId = house.BrokerId,
+                    Location = house.Location,
+                    Rooms = house.Rooms,
+                    Size = house.Size,
+                    Published = house.Published,
+                    BrokerCompany = house.BrokerCompany
+                })
                 .FirstOrDefaultAsync();
 
             if (searchResult == null)
                 return NotFound();
+            
 
             return Ok(searchResult);
         }
@@ -76,7 +87,7 @@ namespace ChittyChatty.Controllers
             var houseList = await houses
                                 .Select(house => new HouseRm()
                                 {
-                                    Id = house.BuildingId,
+                                    BuildingId = house.BuildingId,
                                     BrokerId = house.BrokerId,
                                     Location = house.Location,
                                     Rooms = house.Rooms,

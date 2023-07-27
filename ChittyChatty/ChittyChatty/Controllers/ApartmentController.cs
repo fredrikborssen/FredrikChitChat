@@ -25,7 +25,7 @@ namespace ChittyChatty.Controllers
         {
             var searchResult = await _dbContext.Apartments.Select(apartment => new ApartmentRm
             {
-                Id = apartment.BuildingId,
+                BuildingId = apartment.BuildingId,
                 BrokerId = apartment.BrokerId,
                 Location = apartment.Location,
                 Rooms = apartment.Rooms,
@@ -76,7 +76,7 @@ namespace ChittyChatty.Controllers
             var apartmentList = await apartments
                                 .Select(apartment => new ApartmentRm()
                                 {
-                                    Id = apartment.BuildingId,
+                                    BuildingId = apartment.BuildingId,
                                     BrokerId = apartment.BrokerId,
                                     Location = apartment.Location,
                                     Rooms = apartment.Rooms,
