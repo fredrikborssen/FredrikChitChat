@@ -122,8 +122,7 @@ namespace ChittyChatty.Controllers
             else
             {
                 return BadRequest("Failed to save the new House");
-            }
-            
+            }          
         }
     }
 }

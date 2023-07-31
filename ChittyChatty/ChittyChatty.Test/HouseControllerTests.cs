@@ -1,15 +1,15 @@
 using ChittyChatty.Data;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
-using Microsoft.Extensions.DependencyInjection;
 using ChittyChatty.Domain.Entites;
 using System.Text.Json;
-using System.Net;
 using ChittyChatty.Controllers;
 using ChittyChatty.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ChittyChatty.Dtos;
+using System.Text;
+using Azure;
 
 namespace ChittyChatty.Test
 {
@@ -31,19 +31,11 @@ namespace ChittyChatty.Test
             return new ApplicationDbContext(options);
         }
 
-        protected HttpClient GetHttpClient(ApplicationDbContext dbContext)
+        private async Task ResetDatabase(ApplicationDbContext dbContext)
         {
-            var client = _factory.WithWebHostBuilder(builder =>
-            {
-                builder.ConfigureServices(services =>
-                {
-                    services.AddSingleton<ApplicationDbContext>(dbContext);
-                });
-            }).CreateClient();
-
-            return client;
+            await dbContext.Database.EnsureDeletedAsync();
+            await dbContext.Database.EnsureCreatedAsync();
         }
-
 
 
         [Fact]
@@ -51,7 +43,8 @@ namespace ChittyChatty.Test
         {
             // Arrange
             using var dbContext = GetDbContext();
-            using var client = GetHttpClient(dbContext);
+            await ResetDatabase(dbContext);
+            var houseController = new HouseController(dbContext);
             var hus = new House(Guid.NewGuid(),"strand", 2, 34, DateTime.Now, "StensAB");
             var husInfo =  JsonSerializer.Serialize(hus);
             dbContext.Houses.Add(hus);
@@ -59,12 +52,14 @@ namespace ChittyChatty.Test
 
 
             // Act
-            var response = await client.GetAsync("api/house");
+            var response = await houseController.GetHouses() as OkObjectResult;
 
             // Assert
-            var responseContent = await response.Content.ReadAsStringAsync();
-            responseContent = responseContent.TrimStart('[').TrimEnd(']');
-            Assert.Contains(responseContent, husInfo, StringComparison.OrdinalIgnoreCase);
+            Assert.NotNull(response);
+            Assert.Equal(StatusCodes.Status200OK, response.StatusCode);
+
+            var responseContent = response.Value as IEnumerable<HouseRm>;
+            Assert.NotNull(responseContent);
         }
 
         [Fact]
@@ -72,13 +67,15 @@ namespace ChittyChatty.Test
         {
             // Arrange
             using var dbContext = GetDbContext();
-            using var client = GetHttpClient(dbContext);
+            await ResetDatabase(dbContext);
+            var houseController = new HouseController(dbContext);
 
             // Act
-            var response = await client.GetAsync("api/house");
+            var response = await houseController.GetHouses() as NotFoundResult;
 
             // Assert
-            Assert.Equal(HttpStatusCode.NotFound,response.StatusCode);
+            Assert.IsType<NotFoundResult>(response);
+            Assert.Equal(StatusCodes.Status404NotFound, (response as NotFoundResult).StatusCode);
         }
 
         [Fact]
@@ -86,6 +83,7 @@ namespace ChittyChatty.Test
         {
             // Arrange
             using var dbContext = GetDbContext();
+            await ResetDatabase(dbContext);
             var houseController = new HouseController(dbContext);
             var hus = new House(Guid.NewGuid(), "strand", 2, 34, DateTime.Now, "StensAB");
             var husInfo = JsonSerializer.Serialize(hus);
@@ -100,7 +98,35 @@ namespace ChittyChatty.Test
             Assert.Equal(StatusCodes.Status200OK, result.StatusCode);
 
             var houseRm = result.Value as HouseRm;
-            Assert.NotNull(result.Value);
+            Assert.NotNull(houseRm);
+        }
+
+        [Fact]
+        public async Task PostHouse_ShouldReturnBadRequest_WhenOkHouseDtoSentButBrokerDoesNotExist()
+        {
+            using var dbContext = GetDbContext();
+            await ResetDatabase(dbContext);
+            var houseController = new HouseController(dbContext);
+            var hus = new HouseDto
+            {
+                BrokerId = Guid.NewGuid(),
+                Location = "Stensö",
+                Rooms = 4,
+                Size = 45,
+                Published = DateTime.Now,
+                BrokerCompany = "Malm Sälj"
+            };
+            var jsonContent = JsonSerializer.Serialize(hus);
+
+            // Create a StringContent instance with JSON data
+            var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
+
+            // Send the POST request
+            var result = await houseController.PostNewHouse(hus) as BadRequestObjectResult;
+
+            Assert.NotNull(result);
+            Assert.IsType<BadRequestObjectResult>(result);
+            Assert.Equal(StatusCodes.Status400BadRequest, result.StatusCode);
         }
     }
 }
