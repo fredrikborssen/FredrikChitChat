@@ -73,6 +73,9 @@ namespace ChittyChatty.Controllers
             if (searchParameter.Published != null)
                 apartments = apartments.Where(a => a.Published >= searchParameter.Published);
 
+            if (!string.IsNullOrWhiteSpace(searchParameter.BrokerCompany))
+                apartments = apartments.Where(a => a.BrokerCompany.Contains(searchParameter.BrokerCompany));
+
             var apartmentList = await apartments
                                 .Select(apartment => new ApartmentRm()
                                 {

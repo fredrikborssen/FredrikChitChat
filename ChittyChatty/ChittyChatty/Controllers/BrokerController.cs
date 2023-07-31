@@ -51,9 +51,18 @@ namespace ChittyChatty.Controllers
             await _context.Brokers.AddAsync(newBroker);
 
             var savedChanges = await _context.SaveChangesAsync();
+            var newBrokerRm = new BrokerRm
+            {
+                BrokerId = newBroker.BrokerId,
+                FirstName = newBroker.FirstName,
+                Surname = newBroker.Surname,
+                BrokerCompany = newBroker.BrokerCompany,
+                LastUpdate = newBroker.LastUpdate
+            };
+
             if(savedChanges > 0)
             {
-                return CreatedAtAction(nameof(GetBrokerById), new { id = newBroker.BrokerId }, newBroker);
+                return CreatedAtAction(nameof(GetBrokerById), new { id = newBroker.BrokerId }, newBrokerRm);
             }
             else
             {

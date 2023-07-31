@@ -68,7 +68,7 @@ namespace ChittyChatty.Controllers
 
         [HttpGet("search")]
         [ProducesResponseType(typeof(IEnumerable<HouseRm>), StatusCodes.Status200OK)]
-        public async Task<IEnumerable<HouseRm>> SearchHouse([FromQuery] HouseDto searchParameter)
+        public async Task<IActionResult> SearchHouse([FromQuery] HouseDto searchParameter)
         {
             IQueryable<House> houses = _dbContext.Houses;
 
@@ -84,6 +84,9 @@ namespace ChittyChatty.Controllers
             if (searchParameter.Published != null)
                 houses = houses.Where(a => a.Published >= searchParameter.Published);
 
+            if (!string.IsNullOrWhiteSpace(searchParameter.BrokerCompany))
+                houses = houses.Where(a => a.BrokerCompany.Contains(searchParameter.BrokerCompany));
+
             var houseList = await houses
                                 .Select(house => new HouseRm()
                                 {
@@ -96,7 +99,7 @@ namespace ChittyChatty.Controllers
                                     BrokerCompany = house.BrokerCompany
                                 }).ToArrayAsync();
 
-            return houseList;
+            return Ok(houseList);
         }
 
         [HttpPost]
@@ -113,11 +116,22 @@ namespace ChittyChatty.Controllers
             var newBrokerListing = new BrokerListingHouse(newHouse.BrokerId, newHouse.BuildingId);
             await _dbContext.Houses.AddAsync(newHouse);
             await _dbContext.BrokerListingHouses.AddAsync(newBrokerListing);
+            var newHouseRm = new HouseRm
+            {
+                BuildingId = newHouse.BuildingId,
+                BrokerId = newHouse.BrokerId,
+                Location = newHouse.Location,
+                Rooms = newHouse.Rooms,
+                Size = newHouse.Size,
+                Published = newHouse.Published,
+                BrokerCompany = broker.BrokerCompany
+            };
+
 
             var savedChanges = await _dbContext.SaveChangesAsync();
             if(savedChanges > 0)
             {
-                return CreatedAtAction(nameof(GetHouseById), new { id = newHouse.BuildingId }, newHouse);
+                return CreatedAtAction(nameof(GetHouseById), new { id = newHouse.BuildingId }, newHouseRm);
             }
             else
             {
