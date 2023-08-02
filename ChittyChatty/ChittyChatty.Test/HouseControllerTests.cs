@@ -19,7 +19,7 @@ namespace ChittyChatty.Test
         protected ApplicationDbContext GetDbContext()
         {
             var options = new DbContextOptionsBuilder<ApplicationDbContext>()
-                .UseInMemoryDatabase(databaseName: "TestDatabase")
+                .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
                 .Options;
 
             return new ApplicationDbContext(options);
@@ -52,6 +52,8 @@ namespace ChittyChatty.Test
 
             var responseContent = response.Value as IEnumerable<HouseRm>;
             Assert.NotNull(responseContent);
+
+            await dbContext.Database.EnsureDeletedAsync();
         }
 
         [Fact]
@@ -68,6 +70,7 @@ namespace ChittyChatty.Test
             // Assert
             Assert.IsType<NotFoundResult>(response);
             Assert.Equal(StatusCodes.Status404NotFound, response.StatusCode);
+            await dbContext.Database.EnsureDeletedAsync();
         }
 
         [Fact]
@@ -92,6 +95,7 @@ namespace ChittyChatty.Test
             var houseRm = result.Value as HouseRm;
             Assert.NotNull(houseRm);
             Assert.Equal(hus.BuildingId, houseRm.BuildingId);
+            await dbContext.Database.EnsureDeletedAsync();
         }
 
         [Fact]
@@ -116,6 +120,7 @@ namespace ChittyChatty.Test
             Assert.NotNull(result);
             Assert.IsType<BadRequestObjectResult>(result);
             Assert.Equal(StatusCodes.Status400BadRequest, result.StatusCode);
+            await dbContext.Database.EnsureDeletedAsync();
         }
 
         [Fact]
@@ -151,6 +156,7 @@ namespace ChittyChatty.Test
             var houseRm = houseResult?.Value as HouseRm;
             Assert.Equal(StatusCodes.Status201Created, houseResult?.StatusCode);
             Assert.Equal(brokerRm.BrokerId, houseRm.BrokerId);
+            await dbContext.Database.EnsureDeletedAsync();
         }
 
         [Fact]
@@ -180,7 +186,7 @@ namespace ChittyChatty.Test
 
             var numberOfHousesToGenerate = 10;
             var randomHouses = faker.Generate(numberOfHousesToGenerate);
-            await dbContext.AddRangeAsync(randomHouses);
+            await dbContext.Houses.AddRangeAsync(randomHouses);
             await dbContext.SaveChangesAsync();
 
             var searchParameters = new HouseDto
@@ -192,6 +198,7 @@ namespace ChittyChatty.Test
             Assert.Equal(StatusCodes.Status200OK, response?.StatusCode);
             var responseContent = response?.Value as IEnumerable<HouseRm>;
             Assert.True(responseContent.All(h => h.BrokerCompany == "Stenslöv"));
+            await dbContext.Database.EnsureDeletedAsync();
         }
     }
 }

@@ -47,9 +47,19 @@ namespace ChittyChatty.Controllers
         {
             var searchResult = await _dbContext.Apartments
                 .Where(apartment => apartment.BuildingId == id)
+                .Select(apartment => new ApartmentRm
+                {
+                    BuildingId = apartment.BuildingId,
+                    BrokerId = apartment.BrokerId,
+                    Location = apartment.Location,
+                    Rooms = apartment.Rooms,
+                    Size = apartment.Size,
+                    Published = apartment.Published,
+                    BrokerCompany = apartment.BrokerCompany
+                })
                 .FirstOrDefaultAsync();
 
-            if(searchResult == null) 
+            if (searchResult == null) 
                 return NotFound();
 
             return Ok(searchResult);
@@ -57,7 +67,7 @@ namespace ChittyChatty.Controllers
 
         [HttpGet("search")]
         [ProducesResponseType(typeof(IEnumerable<ApartmentRm>),StatusCodes.Status200OK)]
-        public async Task<IEnumerable<ApartmentRm>> SearchApartment([FromQuery] ApartmentDto searchParameter)
+        public async Task<IActionResult> SearchApartment([FromQuery] ApartmentDto searchParameter)
         {
             IQueryable<Apartment> apartments = _dbContext.Apartments;
 
@@ -88,7 +98,7 @@ namespace ChittyChatty.Controllers
                                     BrokerCompany = apartment.BrokerCompany
                                 }).ToArrayAsync();
 
-            return apartmentList;
+            return Ok(apartmentList);
         }
 
         [HttpPost]
@@ -105,11 +115,21 @@ namespace ChittyChatty.Controllers
             var newBrokerListing = new BrokerListingApartment(newApartment.BrokerId, newApartment.BuildingId);
             await _dbContext.Apartments.AddAsync(newApartment);
             await _dbContext.BrokerListingApartments.AddAsync(newBrokerListing);
+            var newApartmentRm = new ApartmentRm
+            {
+                BuildingId = newApartment.BuildingId,
+                BrokerId = newApartment.BrokerId,
+                Location = newApartment.Location,
+                Rooms = newApartment.Rooms,
+                Size = newApartment.Size,
+                Published = newApartment.Published,
+                BrokerCompany = broker.BrokerCompany
+            };
 
             int savedChanges = await _dbContext.SaveChangesAsync();
             if (savedChanges > 0)
             {
-                return CreatedAtAction(nameof(GetApartmentById), new { id = newApartment.BuildingId }, newApartment);
+                return CreatedAtAction(nameof(GetApartmentById), new { id = newApartment.BuildingId }, newApartmentRm);
             }
             else
             {
