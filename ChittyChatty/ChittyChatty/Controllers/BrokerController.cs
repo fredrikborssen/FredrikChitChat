@@ -23,7 +23,16 @@ namespace ChittyChatty.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetBrokers()
         {
-            var brokerList = await _context.Brokers.ToListAsync();
+            var brokerList = await _context.Brokers
+                .Select(b => new BrokerRm
+                {
+                    BrokerId = b.BrokerId,
+                    FirstName = b.FirstName,
+                    Surname = b.Surname,
+                    BrokerCompany = b.BrokerCompany,
+                    LastUpdate = b.LastUpdate
+                })
+                .ToListAsync();
 
             if(brokerList == null)
                 return NotFound();
@@ -35,13 +44,39 @@ namespace ChittyChatty.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetBrokerById(Guid id)
         {
-            var broker = await _context.Brokers.FindAsync(id);
+            var broker = await _context.Brokers
+                .Where(b => b.BrokerId == id)
+                .Select(broker => new BrokerRm
+                {
+                    BrokerId = broker.BrokerId,
+                    FirstName = broker.FirstName,
+                    Surname = broker.Surname,
+                    BrokerCompany = broker.BrokerCompany,
+                    LastUpdate = broker.LastUpdate
+                })
+                .FirstOrDefaultAsync();
 
             if(broker == null)
                 return NotFound();
 
             return Ok(broker);
         }
+        [HttpDelete("{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> DeleteBrokerById(Guid id)
+        {
+            var broker = await _context.Brokers.FindAsync(id);
+
+            if(broker is null)
+                return NotFound();
+
+            _context.Brokers.Remove(broker);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
 
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
